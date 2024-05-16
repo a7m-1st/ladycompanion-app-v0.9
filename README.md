@@ -38,9 +38,9 @@ Assumptions/Limitations
 00Enjoy
 
 Developers:
--Ahmed Awelkair (leader)
--Harishankar Vinod (Database Engineer)
--Nicolas Perera
--Amjad Ali
--Bimo Kuncoro
--Mouawia Aldaliee (UI/UX Engineer)
+- Ahmed Awelkair (leader)
+- Harishankar Vinod (https://github.com/HVEPYC) (GoogleMap SDK OnHover Implementation, Unsafe Zone Warning System, Database Query and Schema Engineer)
+- Nicolas Perera
+- Amjad Ali
+- Bimo Kuncoro
+- Mouawia Aldaliee (UI/UX Engineer)
