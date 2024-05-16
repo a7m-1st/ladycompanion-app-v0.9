@@ -1,0 +1,257 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.AmjadPart.fragment_menstruationPeriodProblems"
+    android:background="@color/ladypink">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="10dp"
+            android:gravity="start"
+            android:text="Period Problems"
+            android:textColor="#000"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="20dp"
+            android:gravity="start"
+            android:text="If problems with your periods are affecting your life, there's help and support available."
+            android:textColor="#000"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="20dp"
+            android:gravity="start"
+            android:text="Before you see your GP about period problems, it can be useful to keep a diary of your symptoms throughout the menstrual cycle. This can give your doctor a detailed idea of what happens, and when, during your cycle."
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="10dp"
+            android:gravity="start"
+            android:text="Painful periods"
+            android:textColor="#000"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="20dp"
+            android:gravity="start"
+            android:text="Pain during periods is common. It's usually caused by the womb contracting to push out the blood.
+\n\nExercise may help relieve the pain, as well as taking over-the-counter painkillers, such as paracetamol, ibuprofen and aspirin.
+\n\nHowever, do not take ibuprofen or aspirin if you have asthma or stomach, heart, kidney or liver problems. Aspirin should not be taken by anyone under 16 years of age.
+\n\nHormonal contraception (such as the combined contraceptive pill, the intrauterine system (IUS), the contraceptive patch or the contraceptive injection) can reduce period pain.
+\n\nSee your GP if the pain is so severe that it affects your daily life."
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="10dp"
+            android:gravity="start"
+            android:text="Heavy periods"
+            android:textColor="#000"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="20dp"
+            android:gravity="start"
+            android:text="Some women naturally have heavier periods than others, but if your periods are so heavy that they impact your life, there is help available.
+\n\nTalk to your GP about your bleeding, including how often you have to change your sanitary protection (towels, tampons, period underwear or menstrual cup).
+\n\nYour GP can investigate why you're experiencing heavy bleeding. These investigations may include a physical examination, blood tests or scans.
+\n\nTreatments for heavy periods can include:
+\n\n - some types of hormonal contraception, such as the intrauterine system (IUS) or the combined contraceptive pill
+\n\n - tranexamic acid tablets
+\n\n - anti-inflammatory painkillers, such as ibuprofen or mefenamic acid
+\n\n - progestogen tablets
+\n\n - surgery (depending on the cause)"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="10dp"
+            android:gravity="start"
+            android:text="Irregular periods"
+            android:textColor="#000"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="20dp"
+            android:gravity="start"
+            android:text="A period usually lasts 2 to 7 days, with the average period lasting 5 days.
+\n\nThe length of the menstrual cycle varies from woman to woman, but the average is to have periods every 28 days. Regular cycles that are longer or shorter than this, from 23 to 35 days, are normal.
+\n\nBut some women have an irregular menstrual cycle.
+\n\nThis is where there is a wide variation in:
+\n\n - the time between your periods (they may arrive early or late)
+\n\n - the amount of blood you lose (periods may be heavy or light)
+\n\n - the number of days the period lasts
+\n\nIrregular periods can be common during puberty and just before the menopause. Changing your method of contraception can also disturb your normal menstrual cycle."
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="10dp"
+            android:gravity="start"
+            android:text="Stopped or missed periods"
+            android:textColor="#000"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="20dp"
+            android:gravity="start"
+            android:text="There are many reasons why you may miss your period, or why periods may stop altogether.
+\n\nSome common reasons are:
+\n\n - pregnancy
+\n\n - stress
+\n\n - sudden weight loss
+\n\n - overexercising
+\n\n - reaching the menopause
+\n\nIf your periods stop and you're concerned, see your GP."
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="10dp"
+            android:gravity="start"
+            android:text="PMS (premenstrual syndrome)"
+            android:textColor="#000"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="20dp"
+            android:gravity="start"
+            android:text="PMS is thought to be linked to changing levels of hormones throughout the menstrual cycle.
+\n\nNot all women get PMS. If you do, the range and severity of symptoms can vary.
+\n\nSymptoms may include:
+\n\n - mood swings
+\n\n - feeling depressed or irritable
+\n\n - headaches
+\n\n - tiredness
+\n\n - bloating
+\n\n - breast tenderness
+\n\nSymptoms usually start and can intensify in the 2 weeks before your period, and then ease and disappear after your period starts."
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="10dp"
+            android:gravity="start"
+            android:text="Endometriosis"
+            android:textColor="#000"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="20dp"
+            android:gravity="start"
+            android:text="Endometriosis is a condition where tissue similar to the lining of the womb (endometrium) grows in other places outside the womb, such as in the ovaries and fallopian tubes.
+\n\nNot all women have symptoms, but endometriosis can cause:
+\n\n - painful, heavy or irregular periods
+\n\n - pelvic pain
+\n\n - pain during or after sex
+\n\n - pain or discomfort when going to the toilet
+\n\n - blood in your pee
+\n\nSee your GP if you have symptoms of endometriosis, especially if they're having a big impact on your life."
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="10dp"
+            android:gravity="start"
+            android:text="Ovulation pain"
+            android:textColor="#000"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="20dp"
+            android:gravity="start"
+            android:text="Some women get a one-sided pain in their lower abdomen when they ovulate.
+\n\nThe pain can be a dull cramp or sharp and sudden. It can last just a few minutes or continue for 1 to 2 days. Some women notice a little vaginal bleeding when it happens.
+\n\nPainful ovulation can usually be eased by simple remedies like soaking in a hot bath or taking an over-the-counter painkiller, such as paracetamol.
+\n\nIf you're in a lot of discomfort, see your GP about other treatment options."
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+</ScrollView>

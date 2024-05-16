@@ -1,0 +1,69 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.HarIPart.agencyReviewUnsafeZoneRequests">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/ladypink">
+
+        <TextView
+            android:id="@+id/TVUnsafeZoneAdditionRequests"
+            android:layout_width="305dp"
+            android:layout_height="70dp"
+            android:layout_marginTop="16dp"
+            android:autoSizeTextType="uniform"
+            android:text="Review Unsafe Zone Addition \nRequests:"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/RVAdditionRequests"
+            android:layout_width="411dp"
+            android:layout_height="551dp"
+            android:layout_marginStart="2dp"
+            android:layout_marginTop="1dp"
+            android:layout_marginEnd="1dp"
+            android:visibility="gone"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/TVUnsafeZoneAdditionRequests"
+            app:layout_constraintVertical_bias="0.096"
+            tools:listitem="@layout/unsafe_zone_addition_requests" />
+
+        <Button
+            android:id="@+id/backToAgencyMapView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="88dp"
+            android:backgroundTint="@color/ladypinkmid"
+            android:text="Go Back to Map View"
+            android:textColor="#000000"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <TextView
+            android:id="@+id/textView13"
+            android:layout_width="296dp"
+            android:layout_height="105dp"
+            android:layout_marginTop="136dp"
+            android:autoSizeTextType="uniform"
+            android:text="There are No Unsafe Zone Requests available at the moment"
+            android:textAlignment="center"
+            android:visibility="gone"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.495"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/TVUnsafeZoneAdditionRequests" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</FrameLayout>

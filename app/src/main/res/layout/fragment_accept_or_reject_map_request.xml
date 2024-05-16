@@ -1,0 +1,157 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.HarIPart.AcceptOrRejectMapRequest">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/ladypink">
+
+        <Button
+            android:id="@+id/RejectRequestButton"
+            android:layout_width="94dp"
+            android:layout_height="51dp"
+            android:layout_marginTop="88dp"
+            android:layout_marginEnd="28dp"
+            android:backgroundTint="@color/ladypurple"
+            android:text="Reject"
+            android:textSize="14sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/TVLocationView" />
+
+        <Button
+            android:id="@+id/goBackToRecyclertButton"
+            android:layout_width="94dp"
+            android:layout_height="51dp"
+            android:layout_marginStart="28dp"
+            android:layout_marginTop="88dp"
+            android:backgroundTint="@color/ladypurple"
+            android:text="Back"
+            android:textSize="14sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/TVLocationView" />
+
+        <Button
+            android:id="@+id/acceptRequestButton"
+            android:layout_width="117dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="88dp"
+            android:backgroundTint="@color/ladypurple"
+            android:text="Accept"
+            android:textSize="14sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/TVLocationView" />
+
+        <fragment
+            android:id="@+id/AgencyConfirmMap"
+            android:name="com.google.android.gms.maps.SupportMapFragment"
+            android:layout_width="374dp"
+            android:layout_height="483dp"
+            android:layout_marginTop="16dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.486"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:context="com.example.HarIPart.AcceptOrRejectMapRequest" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="55dp"
+            android:layout_height="52dp"
+            android:src="@drawable/location_pin_1160357"
+            app:layout_constraintBottom_toBottomOf="@+id/AgencyConfirmMap"
+            app:layout_constraintEnd_toEndOf="@+id/AgencyConfirmMap"
+            app:layout_constraintHorizontal_bias="0.501"
+            app:layout_constraintStart_toStartOf="@+id/AgencyConfirmMap"
+            app:layout_constraintTop_toTopOf="@+id/AgencyConfirmMap"
+            app:layout_constraintVertical_bias="0.45" />
+
+        <TextView
+            android:id="@+id/TVAcceptOrReject"
+            android:layout_width="393dp"
+            android:layout_height="28dp"
+            android:layout_marginTop="15dp"
+            android:autoSizeTextType="uniform"
+            android:text="Accept This Unsafe Zone Addition Request?"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/AgencyConfirmMap" />
+
+        <TextView
+            android:id="@+id/TVLocationView"
+            android:layout_width="389dp"
+            android:layout_height="61dp"
+            android:layout_marginTop="7dp"
+            android:autoSizeTextType="none"
+            android:text="Location: "
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textSize="20dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/TVAcceptOrReject" />
+
+        <ImageView
+            android:id="@+id/unsafeMarkedPopupAcceptOrRejectPage"
+            android:layout_width="355dp"
+            android:layout_height="173dp"
+            android:layout_marginTop="208dp"
+            android:background="@color/ladypurple"
+            android:src="@drawable/baseline_format_bold_24"
+            android:visibility="gone"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/AgencyConfirmMap" />
+
+        <TextView
+            android:id="@+id/UnsageMarkedPopupTextAcceptOrReject"
+            android:layout_width="332dp"
+            android:layout_height="93dp"
+            android:layout_marginStart="14dp"
+            android:layout_marginEnd="8dp"
+            android:autoSizeTextType="uniform"
+            android:text="Unsafe Zone Request \nApproved and \nMarked on Map"
+            android:textAlignment="center"
+            android:visibility="gone"
+            app:layout_constraintBottom_toBottomOf="@+id/unsafeMarkedPopupAcceptOrRejectPage"
+            app:layout_constraintEnd_toEndOf="@+id/unsafeMarkedPopupAcceptOrRejectPage"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="@+id/unsafeMarkedPopupAcceptOrRejectPage"
+            app:layout_constraintTop_toTopOf="@+id/unsafeMarkedPopupAcceptOrRejectPage"
+            app:layout_constraintVertical_bias="0.3" />
+
+        <Button
+            android:id="@+id/okAddUnsafeZone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:backgroundTint="@color/ladypink"
+            android:text="OK"
+            android:textColor="#000000"
+            android:visibility="gone"
+            app:layout_constraintBottom_toBottomOf="@+id/unsafeMarkedPopupAcceptOrRejectPage"
+            app:layout_constraintEnd_toEndOf="@+id/unsafeMarkedPopupAcceptOrRejectPage"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintStart_toStartOf="@+id/unsafeMarkedPopupAcceptOrRejectPage" />
+
+        <TextView
+            android:id="@+id/reasonView"
+            android:layout_width="388dp"
+            android:layout_height="66dp"
+            android:layout_marginTop="10dp"
+            android:text="Reason: "
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textSize="20dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/TVLocationView" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</FrameLayout>

@@ -1,0 +1,102 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/ladypink"
+    tools:context="com.example.AmjadPart.fragment_addHealthExpert">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="64dp"
+            android:layout_marginHorizontal="16dp"
+            android:layout_marginBottom="36dp"
+            android:text="Enter Expert Information"
+            android:textColor="#000000"
+            android:textSize="28sp"
+            android:textStyle="bold"/>
+
+        <EditText
+            android:id="@+id/expertName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="16dp"
+            android:hint="Expert Name"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/expertAge"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="16dp"
+            android:hint="Expert Age"
+            android:inputType="number" />
+
+        <EditText
+            android:id="@+id/expertPhoneNo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="16dp"
+            android:hint="Expert Phone Number"
+            android:inputType="phone" />
+
+        <EditText
+            android:id="@+id/expertEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="16dp"
+            android:hint="Expert Email Address"
+            android:inputType="textEmailAddress" />
+
+        <EditText
+            android:id="@+id/expertPosition"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="16dp"
+            android:hint="Expert Position" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Expert Bio:"
+            android:layout_marginHorizontal="16dp"
+            android:layout_marginTop="36dp"
+            android:layout_marginBottom="16dp"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:textSize="28sp"/>
+
+        <EditText
+            android:id="@+id/expertBio"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginHorizontal="16dp"
+            android:layout_marginBottom="16dp"
+            android:background="@drawable/edit_text_background"
+            android:gravity="start|top"
+            android:padding="12dp"
+            android:hint="Enter expert Details here"
+            android:inputType="textMultiLine"
+            android:scrollbars="vertical"
+            android:maxLines="10"/>
+
+        <Button
+            android:id="@+id/addHealthExpert"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/roundstyle"
+            android:text="Add Health Expert"
+            android:layout_marginTop="44dp"
+            android:padding="12dp"
+            android:layout_gravity="center"
+            android:textColor="@color/black"
+            android:textSize="18sp"/>
+
+    </LinearLayout>
+
+</ScrollView>

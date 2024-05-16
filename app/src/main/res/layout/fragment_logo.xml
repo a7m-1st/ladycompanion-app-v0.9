@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/ic_logo"
+        android:layout_width="238dp"
+        android:layout_height="196dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="71dp"
+        android:layout_marginEnd="80dp"
+        app:srcCompat="@drawable/logo" />
+
+    <ImageView
+        android:id="@+id/shimmer_effect"
+        android:layout_width="14dp"
+        android:layout_height="6dp"
+        android:layout_marginLeft="90dp"
+        android:layout_marginTop="210dp"
+        android:rotation="180"
+        android:src="@drawable/shine" />
+
+    <ImageView
+        android:id="@+id/shimmer_effect1"
+        android:layout_width="14dp"
+        android:layout_height="6dp"
+        android:layout_marginLeft="90dp"
+        android:layout_marginTop="180dp"
+        android:rotation="180"
+        android:src="@drawable/shine" />
+
+    <TextView
+        android:id="@+id/app_name"
+        android:layout_width="277dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/ic_logo"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginVertical="180dp"
+        android:layout_marginStart="60dp"
+        android:text="Lady Companion"
+        android:textAlignment="center"
+        android:textSize="26sp"
+        android:textStyle="bold" />
+</FrameLayout>

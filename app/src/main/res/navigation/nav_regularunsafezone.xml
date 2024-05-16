@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_unsafezone"
+    app:startDestination="@id/regularUserUnsafeMapView">
+
+    <fragment
+        android:id="@+id/regularUserUnsafeMapView"
+        android:name="com.example.HarIPart.regularUserUnsafeMapView"
+        android:label="fragment_regular_user_unsafe_map_view"
+        tools:layout="@layout/fragment_regular_user_unsafe_map_view" />
+</navigation>

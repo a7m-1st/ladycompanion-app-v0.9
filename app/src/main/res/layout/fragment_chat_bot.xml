@@ -1,0 +1,56 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.example.AmjadPart.fragment_chatBot"
+    android:background="@color/ladypink">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/chatBotRecycler"
+        android:layout_above="@id/chatBotLay"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/chatBotWelcomeText"
+        android:layout_centerInParent="true"
+        android:text="Enter your Inquiry Here!"
+        android:gravity="center"
+        android:textSize="30sp" />
+
+    <RelativeLayout
+        android:id="@+id/chatBotLay"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:padding="10dp"
+        android:layout_alignParentBottom="true">
+
+        <EditText
+            android:id="@+id/Msg_CB_EditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_toLeftOf="@id/send_Msg_BTN"
+            android:background="@drawable/roundstyle"
+            android:hint="Enter Your Message"
+            android:padding="15dp" />
+
+        <ImageButton
+            android:id="@+id/send_Msg_BTN"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_alignParentEnd="true"
+            android:layout_centerInParent="true"
+            android:layout_marginStart="10dp"
+            android:background="@drawable/roundstylepurple"
+            android:padding="8dp"
+            android:src="@drawable/send_icon"
+            android:contentDescription="Send Inquiry"/>
+
+    </RelativeLayout>
+
+</RelativeLayout>

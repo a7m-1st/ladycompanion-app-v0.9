@@ -1,0 +1,113 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/ladypink"
+    tools:context="com.example.AmjadPart.fragment_healthAndEmergency">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="32dp"
+                android:layout_marginBottom="24dp"
+                android:gravity="start"
+                android:text="Health Chatbot And SOS"
+                android:textColor="#000"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="10dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="10dp"
+                android:gravity="start"
+                android:text="Introduction"
+                android:textColor="#000"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="10dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="20dp"
+                android:gravity="start"
+                android:text="Your health and wellbeing are our main concerns in the LadyCompanion App. Our cutting-edge features are made to give you useful health information, encouragement, and prompt help when you need it most.
+\n\nUsers are explicitly advised not to have complete faith in the ChatBot and its guidelines. We advise speaking with your general practitioner (GP) or using our contact health expert area for tailored and reliable medical advice. Your health is distinct, and expert advice guarantees the greatest care that is customised to meet your specific requirements."
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#000"
+                android:textSize="16sp"
+                android:textStyle="normal" />
+
+            <ImageButton
+                android:id="@+id/chatBotBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start"
+                android:layout_marginHorizontal="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="@color/ladypink"
+                android:contentDescription="Open Female Hygiene ChatBot"
+                android:src="@drawable/ic_chatbotbtn" />
+
+            <ImageButton
+                android:id="@+id/quickHelpBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start"
+                android:layout_marginHorizontal="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="@color/ladypink"
+                android:contentDescription="Open QuickHelp Assistance"
+                android:src="@drawable/ic_quichelpbtn" />
+
+            <ImageButton
+                android:id="@+id/healthExpertsBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start"
+                android:layout_marginHorizontal="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="@color/ladypink"
+                android:contentDescription="Contact Health Expert"
+                android:src="@drawable/ic_contacthealthexpertbtn" />
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/modifyEmergencyBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_gravity="bottom|end"
+        android:src="@drawable/baseline_double_arrow_24"
+        app:maxImageSize="36dp"
+        android:contentDescription="Modify Emergency Options"
+        android:backgroundTint="#661888"/>
+
+</FrameLayout>

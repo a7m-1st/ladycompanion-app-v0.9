@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_agencyunsafezone"
+    app:startDestination="@id/agencyUserUnsafeMapView">
+
+    <fragment
+        android:id="@+id/agencyUserUnsafeMapView"
+        android:name="com.example.HarIPart.agencyUserUnsafeMapView"
+        android:label="fragment_agency_user_unsafe_map_view"
+        tools:layout="@layout/fragment_agency_user_unsafe_map_view" >
+        <action
+            android:id="@+id/action_agencyUserUnsafeMapView_to_agencyReviewUnsafeZoneRequests"
+            app:destination="@id/agencyReviewUnsafeZoneRequests" />
+    </fragment>
+    <fragment
+        android:id="@+id/agencyReviewUnsafeZoneRequests"
+        android:name="com.example.HarIPart.agencyReviewUnsafeZoneRequests"
+        android:label="fragment_agency_review_unsafe_zone_requests"
+        tools:layout="@layout/fragment_agency_review_unsafe_zone_requests" >
+        <action
+            android:id="@+id/action_agencyReviewUnsafeZoneRequests_to_acceptOrRejectMapRequest"
+            app:destination="@id/acceptOrRejectMapRequest" />
+        <action
+            android:id="@+id/action_agencyReviewUnsafeZoneRequests_to_agencyUserUnsafeMapView"
+            app:destination="@id/agencyUserUnsafeMapView" />
+    </fragment>
+    <fragment
+        android:id="@+id/acceptOrRejectMapRequest"
+        android:name="com.example.HarIPart.AcceptOrRejectMapRequest"
+        android:label="fragment_accept_or_reject_map_request"
+        tools:layout="@layout/fragment_accept_or_reject_map_request" >
+        <action
+            android:id="@+id/action_acceptOrRejectMapRequest_to_agencyReviewUnsafeZoneRequests"
+            app:destination="@id/agencyReviewUnsafeZoneRequests" />
+    </fragment>
+</navigation>

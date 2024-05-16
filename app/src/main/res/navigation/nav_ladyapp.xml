@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/DestLoginTree"
+    app:startDestination="@id/ToDestHome">
+
+    <fragment
+        android:id="@+id/ToDestHome"
+        android:name="com.example.MouawiaPart.fragment_home"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_fragment_home_to_fragment_profilepage"
+            app:destination="@id/ToDestProfile" />
+        <action
+            android:id="@+id/action_ToDestHome_to_DestModifypost"
+            app:destination="@id/DestModifypost" />
+        <action
+            android:id="@+id/action_ToDestHome_to_fragment_healthAndEmergency"
+            app:destination="@id/DestEmergency" />
+        <action
+            android:id="@+id/action_ToDestHome_to_DestBlogs"
+            app:destination="@id/DestBlogs" />
+    </fragment>
+    <fragment
+        android:id="@+id/ToDestProfile"
+        android:name="com.example.MouawiaPart.fragment_profilepage"
+        android:label="fragment_profilepage"
+        tools:layout="@layout/fragment_profilepage" >
+        <action
+            android:id="@+id/DestProfilepage"
+            app:destination="@id/ToDestHome" />
+        <action
+            android:id="@+id/action_ToDestProfile_to_fragment_signup"
+            app:destination="@id/DestSignup" />
+        <action
+            android:id="@+id/action_ToDestProfile_to_fragment_editinfo"
+            app:destination="@id/DestEditinfo" />
+        <action
+            android:id="@+id/action_ToDestProfile_to_fragment_modifypost"
+            app:destination="@id/DestModifypost" />
+        <action
+            android:id="@+id/action_ToDestProfile_to_fragment_blogs"
+            app:destination="@id/DestBlogs" />
+        <action
+            android:id="@+id/action_ToDestProfile_to_DestEmergency"
+            app:destination="@id/DestEmergency" />
+    </fragment>
+    <fragment
+        android:id="@+id/DestEditinfo"
+        android:name="com.example.MouawiaPart.fragment_editinfo"
+        android:label="fragment_editinfo"
+        tools:layout="@layout/fragment_editinfo" >
+        <action
+            android:id="@+id/action_fragment_editinfo_to_ToDestProfile"
+            app:destination="@id/ToDestProfile" />
+    </fragment>
+    <fragment
+        android:id="@+id/DestModifypost"
+        android:name="com.example.MouawiaPart.fragment_modifypost"
+        android:label="fragment_modifypost"
+        tools:layout="@layout/fragment_modifypost" >
+        <action
+            android:id="@+id/action_fragment_modifypost_to_ToDestProfile"
+            app:destination="@id/ToDestProfile" />
+        <action
+            android:id="@+id/action_DestModifypost_to_ToDestHome"
+            app:destination="@id/ToDestHome" />
+        <action
+            android:id="@+id/action_DestModifypost_to_DestBlogs"
+            app:destination="@id/DestBlogs" />
+    </fragment>
+    <fragment
+        android:id="@+id/DestBlogs"
+        android:name="com.example.AhmedPart.fragment_blogs"
+        android:label="fragment_blogs"
+        tools:layout="@layout/fragment_blogs" >
+        <action
+            android:id="@+id/action_fragment_blogs_to_ToDestProfile"
+            app:destination="@id/ToDestProfile" />
+        <action
+            android:id="@+id/action_DestBlogs_to_DestModifypost"
+            app:destination="@id/DestModifypost" />
+        <action
+            android:id="@+id/action_DestBlogs_to_ToDestHome"
+            app:destination="@id/ToDestHome" />
+    </fragment>
+    <fragment
+        android:id="@+id/DestEmergency"
+        android:name="com.example.AmjadPart.fragment_healthAndEmergency"
+        android:label="fragment_health_and_emergency"
+        tools:layout="@layout/fragment_health_and_emergency" >
+        <action
+            android:id="@+id/action_fragment_healthAndEmergency_to_ToDestHome"
+            app:destination="@id/ToDestHome" />
+        <action
+            android:id="@+id/action_fragment_healthAndEmergency_to_frgament_contactHealthExpert"
+            app:destination="@id/DestHealthExpertsList" />
+        <action
+            android:id="@+id/action_fragment_healthAndEmergency_to_fragment_chatBot"
+            app:destination="@id/DestChatBot" />
+        <action
+            android:id="@+id/action_DestEmergency_to_ToDestProfile"
+            app:destination="@id/ToDestProfile" />
+        <action
+            android:id="@+id/action_DestEmergency_to_DestQuickHelp"
+            app:destination="@id/DestQuickHelp" />
+    </fragment>
+    <fragment
+        android:id="@+id/DestHealthExpertsList"
+        android:name="com.example.AmjadPart.fragment_healthExperts"
+        android:label="frgament_contact_health_expert"
+        tools:layout="@layout/fragment_contact_health_expert" >
+        <action
+            android:id="@+id/action_frgament_contactHealthExpert_to_fragment_healthAndEmergency"
+            app:destination="@id/DestEmergency" />
+        <action
+            android:id="@+id/action_frgament_contactHealthExpert_to_ToDestHome"
+            app:destination="@id/ToDestHome" />
+        <action
+            android:id="@+id/action_DestHealthExpertsList_to_fragment_addHealthExpert"
+            app:destination="@id/DestAddHealthExpert" />
+        <action
+            android:id="@+id/action_DestHealthExpertsList_to_DestContactExpert"
+            app:destination="@id/DestContactExpert" />
+    </fragment>
+    <fragment
+        android:id="@+id/DestChatBot"
+        android:name="com.example.AmjadPart.fragment_chatBot"
+        android:label="fragment_chat_bot"
+        tools:layout="@layout/fragment_chat_bot" >
+        <action
+            android:id="@+id/action_fragment_chatBot_to_fragment_healthAndEmergency"
+            app:destination="@id/DestEmergency" />
+        <action
+            android:id="@+id/action_fragment_chatBot_to_ToDestHome"
+            app:destination="@id/ToDestHome" />
+    </fragment>
+    <fragment
+        android:id="@+id/DestAddHealthExpert"
+        android:name="com.example.AmjadPart.fragment_addHealthExpert"
+        android:label="fragment_add_health_expert"
+        tools:layout="@layout/fragment_add_health_expert" >
+        <action
+            android:id="@+id/action_fragment_addHealthExpert_to_DestHealthExpertsList"
+            app:destination="@id/DestHealthExpertsList" />
+    </fragment>
+    <fragment
+        android:id="@+id/DestContactExpert"
+        android:name="com.example.AmjadPart.fragment_contactexpert"
+        android:label="fragment_contactexpert"
+        tools:layout="@layout/fragment_contactexpert" >
+        <action
+            android:id="@+id/action_DestContactExpert_to_DestHealthExpertsList"
+            app:destination="@id/DestHealthExpertsList" />
+    </fragment>
+    <fragment
+        android:id="@+id/DestQuickHelp"
+        android:name="com.example.AmjadPart.fragment_quickHelpSituations"
+        android:label="fragment_quick_help_situations"
+        tools:layout="@layout/fragment_quick_help_situations" >
+        <action
+            android:id="@+id/action_DestQuickHelp_to_DestEmergency"
+            app:destination="@id/DestEmergency" />
+        <action
+            android:id="@+id/action_DestQuickHelp_to_DestAssault"
+            app:destination="@id/DestAssault" />
+        <action
+            android:id="@+id/action_DestQuickHelp_to_DestMenstruation"
+            app:destination="@id/DestMenstruation" />
+        <action
+            android:id="@+id/action_DestQuickHelp_to_DestPregnancy"
+            app:destination="@id/DestPregnancy" />
+    </fragment>
+    <fragment
+        android:id="@+id/DestWebScraping"
+        android:name="com.example.AhmedPart.fragment_webScraping"
+        android:label="fragment_web_scraping"
+        tools:layout="@layout/fragment_web_scraping" >
+        <action
+            android:id="@+id/action_DestWebScraping_to_DestBlogs"
+            app:destination="@id/DestBlogs" />
+        <action
+            android:id="@+id/action_DestWebScraping_to_ToDestHome"
+            app:destination="@id/ToDestHome" />
+    </fragment>
+    <fragment
+        android:id="@+id/DestAssault"
+        android:name="com.example.AmjadPart.fragment_assault"
+        android:label="fragment_assault"
+        tools:layout="@layout/fragment_assault">
+        <action
+            android:id="@+id/action_DestAssault_to_DestQuickHelp"
+            app:destination="@id/DestQuickHelp" />
+    </fragment>
+    <fragment
+        android:id="@+id/DestPregnancy"
+        android:name="com.example.AmjadPart.fragment_pregnancySituations"
+        android:label="fragment_pregnancySituations"
+        tools:layout="@layout/fragment_pregnancy_situations">
+
+        <action
+            android:id="@+id/action_DestPregnancy_to_DestQuickHelp"
+            app:destination="@id/DestQuickHelp" />
+    </fragment>
+    <fragment
+        android:id="@+id/DestMenstruation"
+        android:name="com.example.AmjadPart.fragment_menstruation"
+        android:label="fragment_pregnancyMenstruation"
+        tools:layout="@layout/fragment_menstruation">
+
+        <action
+            android:id="@+id/action_DestMenstruation_to_DestQuickHelp"
+            app:destination="@id/DestQuickHelp" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/ToDestAboutUs"
+        android:name="com.example.MainActivity.AboutUs"
+        android:label="About Us"
+        tools:layout="@layout/fragment_about_us"/>
+</navigation>

@@ -1,0 +1,197 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.HarIPart.agencyUserUnsafeMapView">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/AgencyMapViewConstraintLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/ladypink">
+
+        <Button
+            android:id="@+id/markUnsafeButton2"
+            android:layout_width="149dp"
+            android:layout_height="56dp"
+            android:layout_marginTop="48dp"
+            android:layout_marginEnd="44dp"
+            android:backgroundTint="@color/ladypurple"
+            android:text="Mark Unsafe Zone"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/AgencyMap" />
+
+        <Button
+            android:id="@+id/UnsafeRequestReview"
+            android:layout_width="149dp"
+            android:layout_height="56dp"
+            android:layout_marginStart="44dp"
+            android:layout_marginTop="48dp"
+            android:backgroundTint="@color/ladypurple"
+            android:text="Unsafe Zone Addition Requests"
+            android:textSize="12sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/AgencyMap" />
+
+        <fragment
+            android:id="@+id/AgencyMap"
+            android:name="com.google.android.gms.maps.SupportMapFragment"
+            android:layout_width="374dp"
+            android:layout_height="483dp"
+            android:layout_marginTop="80dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.486"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:context="com.example.HarIPart.agencyUserUnsafeMapView" />
+
+        <ImageView
+            android:id="@+id/unsafeZoneDescription3"
+            android:layout_width="175dp"
+            android:layout_height="87dp"
+            android:background="@color/ladypink"
+            android:src="@drawable/baseline_format_bold_24"
+            android:visibility="visible"
+            app:layout_constraintBottom_toBottomOf="@+id/AgencyMap"
+            app:layout_constraintEnd_toEndOf="@+id/AgencyMap"
+            app:layout_constraintHorizontal_bias="0.502"
+            app:layout_constraintStart_toStartOf="@+id/AgencyMap"
+            app:layout_constraintTop_toTopOf="@+id/AgencyMap"
+            app:layout_constraintVertical_bias="0.638" />
+
+        <TextView
+            android:id="@+id/unsafeZoneDescriptionText2"
+            android:layout_width="149dp"
+            android:layout_height="64dp"
+            android:gravity="center"
+            android:text="Location: XYZ\nReason: ABC"
+            android:textColor="#000000"
+            android:textSize="15sp"
+            android:visibility="visible"
+            app:layout_constraintBottom_toBottomOf="@+id/AgencyMap"
+            app:layout_constraintEnd_toEndOf="@+id/AgencyMap"
+            app:layout_constraintHorizontal_bias="0.502"
+            app:layout_constraintStart_toStartOf="@+id/AgencyMap"
+            app:layout_constraintTop_toTopOf="@+id/AgencyMap"
+            app:layout_constraintVertical_bias="0.63" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="55dp"
+            android:layout_height="52dp"
+            android:src="@drawable/location_pin_1160357"
+            app:layout_constraintBottom_toBottomOf="@+id/AgencyMap"
+            app:layout_constraintEnd_toEndOf="@+id/AgencyMap"
+            app:layout_constraintHorizontal_bias="0.501"
+            app:layout_constraintStart_toStartOf="@+id/AgencyMap"
+            app:layout_constraintTop_toTopOf="@+id/AgencyMap"
+            app:layout_constraintVertical_bias="0.45" />
+
+        <ImageView
+            android:id="@+id/unsafeMarkSuccessPopup"
+            android:layout_width="377dp"
+            android:layout_height="217dp"
+            android:layout_marginTop="192dp"
+            android:background="@color/ladypurple"
+            android:src="@drawable/baseline_format_bold_24"
+            android:visibility="gone"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/AgencyMap" />
+
+        <TextView
+            android:id="@+id/unsafeMarkSuccessText"
+            android:layout_width="355dp"
+            android:layout_height="86dp"
+            android:text="Unsafe Zone Marked Successfully"
+            android:textAlignment="center"
+            android:textSize="34sp"
+            android:visibility="gone"
+            app:layout_constraintBottom_toBottomOf="@+id/unsafeMarkSuccessPopup"
+            app:layout_constraintEnd_toEndOf="@+id/unsafeMarkSuccessPopup"
+            app:layout_constraintStart_toStartOf="@+id/unsafeMarkSuccessPopup"
+            app:layout_constraintTop_toTopOf="@+id/unsafeMarkSuccessPopup"
+            app:layout_constraintVertical_bias="0.381" />
+
+        <Button
+            android:id="@+id/okUnsafeMarkedAgency"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:backgroundTint="@color/ladypink"
+            android:text="OK"
+            android:textColor="#000000"
+            android:visibility="gone"
+            app:layout_constraintBottom_toBottomOf="@+id/unsafeMarkSuccessPopup"
+            app:layout_constraintEnd_toEndOf="@+id/unsafeMarkSuccessPopup"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintStart_toStartOf="@+id/unsafeMarkSuccessPopup" />
+
+        <ImageView
+            android:id="@+id/unsafeMarkSuccessPopupReason"
+            android:layout_width="377dp"
+            android:layout_height="217dp"
+            android:layout_marginTop="192dp"
+            android:background="@color/ladypurple"
+            android:src="@drawable/baseline_format_bold_24"
+            android:visibility="gone"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/AgencyMap" />
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="333dp"
+            android:layout_height="80dp"
+            android:layout_marginTop="8dp"
+            android:autoSizeTextType="uniform"
+            android:text="Enter reason related to unsafe zone currently marked:"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:visibility="gone"
+            app:layout_constraintEnd_toEndOf="@+id/unsafeMarkSuccessPopupReason"
+            app:layout_constraintStart_toStartOf="@+id/unsafeMarkSuccessPopupReason"
+            app:layout_constraintTop_toTopOf="@+id/imageView2" />
+
+        <EditText
+            android:id="@+id/reasonForMarkAgency"
+            android:layout_width="327dp"
+            android:layout_height="79dp"
+            android:layout_marginBottom="48dp"
+            android:ems="10"
+            android:gravity="start|top"
+            android:hint="Enter Reason Here"
+            android:inputType="textMultiLine"
+            android:textColor="#000000"
+            android:visibility="gone"
+            app:layout_constraintBottom_toBottomOf="@+id/unsafeMarkSuccessPopupReason"
+            app:layout_constraintEnd_toEndOf="@+id/unsafeMarkSuccessPopupReason"
+            app:layout_constraintStart_toStartOf="@+id/unsafeMarkSuccessPopupReason" />
+
+        <Button
+            android:id="@+id/continueButtonAgencyUnsafeZoneReason"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="68dp"
+            android:backgroundTint="@color/ladypink"
+            android:text="CONTINUE"
+            android:textColor="#000000"
+            android:visibility="gone"
+            app:layout_constraintBottom_toBottomOf="@+id/unsafeMarkSuccessPopupReason"
+            app:layout_constraintEnd_toEndOf="@+id/unsafeMarkSuccessPopupReason" />
+
+        <Button
+            android:id="@+id/cancelButtonAgencyUnsafeZoneReason"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="208dp"
+            android:backgroundTint="@color/ladypink"
+            android:text="CANCEL"
+            android:textColor="#000000"
+            android:visibility="gone"
+            app:layout_constraintBottom_toBottomOf="@+id/unsafeMarkSuccessPopupReason"
+            app:layout_constraintEnd_toEndOf="@+id/unsafeMarkSuccessPopupReason" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</FrameLayout>

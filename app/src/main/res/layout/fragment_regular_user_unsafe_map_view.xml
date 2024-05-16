@@ -1,0 +1,256 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context="com.example.HarIPart.regularUserUnsafeMapView">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/regularMapViewConstraintLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/ladypink">
+
+        <fragment
+            android:id="@+id/RegularMap"
+            android:name="com.google.android.gms.maps.SupportMapFragment"
+            android:layout_width="374dp"
+            android:layout_height="483dp"
+            android:layout_marginTop="64dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.486"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:context="com.example.HarIPart.regularUserUnsafeMapView" />
+
+        <Button
+            android:id="@+id/NotifButton"
+            android:layout_width="149dp"
+            android:layout_height="56dp"
+            android:layout_marginStart="44dp"
+            android:layout_marginTop="48dp"
+            android:backgroundTint="@color/ladypurple"
+            android:text="Notification Settings"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/RegularMap" />
+
+        <Button
+            android:id="@+id/MarkUnsafeButton"
+            android:layout_width="149dp"
+            android:layout_height="56dp"
+            android:layout_marginTop="48dp"
+            android:layout_marginEnd="44dp"
+            android:backgroundTint="@color/ladypurple"
+            android:text="Mark Unsafe Zone"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/RegularMap" />
+
+        <ImageView
+            android:id="@+id/UnsafeZoneDescription"
+            android:layout_width="175dp"
+            android:layout_height="87dp"
+            android:background="@color/ladypink"
+            android:src="@drawable/baseline_format_bold_24"
+            android:visibility="visible"
+            app:layout_constraintBottom_toBottomOf="@+id/RegularMap"
+            app:layout_constraintEnd_toEndOf="@+id/RegularMap"
+            app:layout_constraintHorizontal_bias="0.502"
+            app:layout_constraintStart_toStartOf="@+id/RegularMap"
+            app:layout_constraintTop_toTopOf="@+id/RegularMap"
+            app:layout_constraintVertical_bias="0.648" />
+
+        <TextView
+            android:id="@+id/UnsafeZoneDescriptionText"
+            android:layout_width="149dp"
+            android:layout_height="64dp"
+            android:gravity="center"
+            android:text="Location: XYZ\nReason: ABC"
+            android:textColor="#000000"
+            android:textSize="15sp"
+            android:visibility="visible"
+            app:layout_constraintBottom_toBottomOf="@+id/RegularMap"
+            app:layout_constraintEnd_toEndOf="@+id/RegularMap"
+            app:layout_constraintHorizontal_bias="0.502"
+            app:layout_constraintStart_toStartOf="@+id/RegularMap"
+            app:layout_constraintTop_toTopOf="@+id/RegularMap"
+            app:layout_constraintVertical_bias="0.642" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="55dp"
+            android:layout_height="52dp"
+            android:src="@drawable/location_pin_1160357"
+            app:layout_constraintBottom_toBottomOf="@+id/RegularMap"
+            app:layout_constraintEnd_toEndOf="@+id/RegularMap"
+            app:layout_constraintHorizontal_bias="0.501"
+            app:layout_constraintStart_toStartOf="@+id/RegularMap"
+            app:layout_constraintTop_toTopOf="@+id/RegularMap"
+            app:layout_constraintVertical_bias="0.45" />
+
+        <ImageView
+            android:id="@+id/NotifSettingPopUp"
+            android:layout_width="377dp"
+            android:layout_height="217dp"
+            android:layout_marginTop="192dp"
+            android:background="@color/ladypurple"
+            android:src="@drawable/baseline_format_bold_24"
+            android:visibility="gone"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.47"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/RegularMap" />
+
+        <CheckBox
+            android:id="@+id/NotifSettingCheckBox"
+            android:layout_width="49dp"
+            android:layout_height="53dp"
+            android:layout_marginStart="308dp"
+            android:layout_marginTop="80dp"
+            android:scaleX="2"
+            android:scaleY="2"
+            android:visibility="gone"
+            app:layout_constraintStart_toStartOf="@+id/NotifSettingPopUp"
+            app:layout_constraintTop_toTopOf="@+id/NotifSettingPopUp" />
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="247dp"
+            android:layout_height="43dp"
+            android:layout_marginTop="9dp"
+            android:text="Enable Notifications?"
+            android:textSize="26sp"
+            android:visibility="gone"
+            app:layout_constraintBottom_toBottomOf="@+id/NotifSettingPopUp"
+            app:layout_constraintEnd_toStartOf="@+id/NotifSettingCheckBox"
+            app:layout_constraintHorizontal_bias="0.571"
+            app:layout_constraintStart_toStartOf="@+id/NotifSettingPopUp"
+            app:layout_constraintTop_toTopOf="@+id/NotifSettingPopUp"
+            app:layout_constraintVertical_bias="0.473" />
+
+        <Button
+            android:id="@+id/okButtonNotifications"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:backgroundTint="@color/ladypink"
+            android:text="OK"
+            android:textColor="#000000"
+            android:visibility="gone"
+            app:layout_constraintBottom_toBottomOf="@+id/NotifSettingPopUp"
+            app:layout_constraintEnd_toEndOf="@+id/NotifSettingPopUp"
+            app:layout_constraintHorizontal_bias="0.501"
+            app:layout_constraintStart_toStartOf="@+id/NotifSettingPopUp" />
+
+        <ImageView
+            android:id="@+id/UnsafeMarkRequestPopup"
+            android:layout_width="377dp"
+            android:layout_height="217dp"
+            android:layout_marginTop="192dp"
+            android:background="@color/ladypurple"
+            android:src="@drawable/baseline_format_bold_24"
+            android:visibility="gone"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.47"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/RegularMap" />
+
+        <TextView
+            android:id="@+id/UnsafeMarkRequestText"
+            android:layout_width="349dp"
+            android:layout_height="126dp"
+            android:text="Request for Unsafe Zone Addition Sent to Agency 👍"
+            android:textAlignment="center"
+            android:textSize="34sp"
+            android:visibility="gone"
+            app:layout_constraintBottom_toBottomOf="@+id/UnsafeMarkRequestPopup"
+            app:layout_constraintEnd_toEndOf="@+id/UnsafeMarkRequestPopup"
+            app:layout_constraintHorizontal_bias="0.535"
+            app:layout_constraintStart_toStartOf="@+id/UnsafeMarkRequestPopup"
+            app:layout_constraintTop_toTopOf="@+id/UnsafeMarkRequestPopup"
+            app:layout_constraintVertical_bias="0.142" />
+
+        <Button
+            android:id="@+id/okButtonUnsafeZoneAddedRegular"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:backgroundTint="@color/ladypink"
+            android:text="OK"
+            android:textColor="#000000"
+            android:visibility="gone"
+            app:layout_constraintBottom_toBottomOf="@+id/UnsafeMarkRequestPopup"
+            app:layout_constraintEnd_toEndOf="@+id/UnsafeMarkRequestPopup"
+            app:layout_constraintHorizontal_bias="0.501"
+            app:layout_constraintStart_toStartOf="@+id/UnsafeMarkRequestPopup" />
+
+        <ImageView
+            android:id="@+id/unsafeMarkRequestReasonRegular"
+            android:layout_width="378dp"
+            android:layout_height="245dp"
+            android:layout_marginTop="192dp"
+            android:background="@color/ladypurple"
+            android:src="@drawable/baseline_format_bold_24"
+            android:visibility="gone"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.47"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/RegularMap" />
+
+        <TextView
+            android:id="@+id/textView12"
+            android:layout_width="342dp"
+            android:layout_height="62dp"
+            android:layout_marginTop="8dp"
+            android:autoSizeTextType="uniform"
+            android:text="Enter reason for adding the unsafe zone currently marked:"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:visibility="gone"
+            app:layout_constraintEnd_toEndOf="@+id/RegularMap"
+            app:layout_constraintStart_toStartOf="@+id/RegularMap"
+            app:layout_constraintTop_toTopOf="@+id/imageView2" />
+
+        <EditText
+            android:id="@+id/regularUserUnsafeReason"
+            android:layout_width="351dp"
+            android:layout_height="105dp"
+            android:layout_marginBottom="64dp"
+            android:ems="10"
+            android:gravity="start|top"
+            android:hint="Enter Reason Here"
+            android:inputType="textMultiLine"
+            android:textColor="#000000"
+            android:visibility="gone"
+            app:layout_constraintBottom_toBottomOf="@+id/unsafeMarkRequestReasonRegular"
+            app:layout_constraintEnd_toEndOf="@+id/unsafeMarkRequestReasonRegular"
+            app:layout_constraintStart_toStartOf="@+id/unsafeMarkRequestReasonRegular" />
+
+        <Button
+            android:id="@+id/continueButtonReasonAddingUnsafeZoneRegular"
+            android:layout_width="118dp"
+            android:layout_height="51dp"
+            android:backgroundTint="@color/ladypink"
+            android:text="CONTINUE"
+            android:textColor="#000000"
+            android:visibility="gone"
+            app:layout_constraintBottom_toBottomOf="@+id/unsafeMarkRequestReasonRegular"
+            app:layout_constraintEnd_toEndOf="@+id/unsafeMarkRequestReasonRegular"
+            app:layout_constraintHorizontal_bias="0.765"
+            app:layout_constraintStart_toStartOf="@+id/unsafeMarkRequestReasonRegular" />
+
+        <Button
+            android:id="@+id/cancelButtonReasonAddingUnsafeZoneRegular"
+            android:layout_width="108dp"
+            android:layout_height="51dp"
+            android:backgroundTint="@color/ladypink"
+            android:text="CANCEL"
+            android:textColor="#000000"
+            android:visibility="gone"
+            app:layout_constraintBottom_toBottomOf="@+id/unsafeMarkRequestReasonRegular"
+            app:layout_constraintEnd_toEndOf="@+id/unsafeMarkRequestReasonRegular"
+            app:layout_constraintHorizontal_bias="0.244"
+            app:layout_constraintStart_toStartOf="@+id/unsafeMarkRequestReasonRegular" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</FrameLayout>

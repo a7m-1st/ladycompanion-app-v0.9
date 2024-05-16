@@ -1,0 +1,1619 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.AmjadPart.fragment_pregnancyExistingHealthConditions"
+    android:background="@color/ladypink">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        style="@style/BoldText">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="10dp"
+            android:gravity="start"
+            android:text="Existing health conditions"
+            android:textColor="#000"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginTop="5dp"
+            android:gravity="start"
+            android:text="Advice about health conditions you already had before you were pregnant."
+            android:textColor="#000"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginTop="20dp"
+            android:gravity="start"
+            android:text="Asthma and pregnancy"
+            android:textColor="#000"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginTop="5dp"
+            android:gravity="start"
+            android:text="How pregnancy affects asthma"
+            android:textColor="#000"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginTop="5dp"
+            android:gravity="start"
+            android:text="If you have asthma, it's hard to predict whether your asthma symptoms will be any different in pregnancy. Your symptoms may improve, stay the same or get worse."
+            android:textColor="#000"
+            android:textSize="16sp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginTop="5dp"
+            android:gravity="start"
+            android:text="Important: See a GP, asthma nurse or specialist as soon as you know you're pregnant for advice on how to manage your asthma."
+            android:textColor="#000"
+            android:textSize="16sp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginTop="5dp"
+            android:gravity="start"
+            android:text="Your midwife will support you throughout your pregnancy, but your GP, asthma nurse or specialist will continue to manage your asthma care."
+            android:textColor="#000"
+            android:textSize="16sp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginTop="5dp"
+            android:gravity="start"
+            android:text="You're also more likely to suffer from acid reflux – when stomach acid travels back up towards the throat – while pregnant, which can make asthma worse."
+            android:textColor="#000"
+            android:textSize="16sp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginTop="10dp"
+            android:gravity="start"
+            android:text="Call your GP, asthma nurse or 111 immediately if you’re:"
+            android:textColor="#000"
+            android:textSize="16sp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginTop="5dp"
+            android:gravity="start"
+            android:text="- using more of your reliever than usual"
+            android:textColor="#000"
+            android:textSize="16sp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:gravity="start"
+            android:text="- coughing or wheezing more, especially at night"
+            android:textColor="#000"
+            android:textSize="16sp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:gravity="start"
+            android:text="- feeling shortness of breath or tightness in your chest"
+            android:textColor="#000"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginTop="10dp"
+            android:gravity="start"
+            android:text="Any of these could mean your asthma is getting worse and needs to be checked. A health professional can review your medicines and make changes if necessary."
+            android:textColor="#000"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginTop="10dp"
+            android:gravity="start"
+            android:text="Call 999 if you're having an asthma attack and any of these apply:"
+            android:textColor="#000"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:gravity="start"
+            android:text="- you don't have your inhaler with you"
+            android:textColor="#000"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:gravity="start"
+            android:text="- you feel worse despite using your inhaler"
+            android:textColor="#000"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:gravity="start"
+            android:text="- you don't feel better after taking 10 puffs"
+            android:textColor="#000"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginTop="20dp"
+            android:gravity="start"
+            android:text="Asthma treatments and pregnancy"
+            android:textColor="#000"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginTop="5dp"
+            android:gravity="start"
+            android:text="Don't stop taking your asthma medicine – talk to a GP, asthma nurse or specialist first."
+            android:textColor="#000"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:gravity="start"
+            android:text="Most asthma medicines are safe to use in pregnancy and, if your asthma is well controlled, there's little to no risk for you or your baby."
+            android:textColor="#000"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:gravity="start"
+            android:text="You should continue to take your prescribed asthma treatments throughout pregnancy. Unless your asthma gets worse, your treatment can remain exactly the same as before."
+            android:textColor="#000"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:gravity="start"
+            android:text="Your symptoms may get worse if you stop taking your medicine. This can pose a risk for your own health and increase the risk of your baby having a low birthweight."
+            android:textColor="#000"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginTop="20dp"
+            android:gravity="start"
+            android:text="Asthma treatments and breastfeeding"
+            android:textColor="#000"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginTop="5dp"
+            android:gravity="start"
+            android:text="It's safe to continue any asthma treatment while you're breastfeeding. Even when you're busy with your new baby, it's important not to neglect your own health and to keep your asthma under control."
+            android:textColor="#000"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginTop="20dp"
+            android:gravity="start"
+            android:text="Managing your asthma during pregnancy"
+            android:textColor="#000"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginTop="5dp"
+            android:gravity="start"
+            android:text="There are things you can do to help manage your condition during pregnancy, such as:"
+            android:textColor="#000"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:gravity="start"
+            android:text="- using a preventer inhaler (steroids) when you get a cough or cold – speak to a doctor about using preventer inhalers in pregnancy"
+            android:textColor="#000"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:gravity="start"
+            android:text="- avoiding smoking"
+            android:textColor="#000"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:gravity="start"
+            android:text="- avoiding things that trigger allergic reactions for you – for example, pet fur"
+            android:textColor="#000"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:gravity="start"
+            android:text="- controlling hay fever with antihistamines – talk to a doctor or pharmacist about which antihistamines are safe to take in pregnancy"
+            android:textColor="#000"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:gravity="start"
+            android:text="- avoiding hay fever triggers, such as mowing the lawn"
+            android:textColor="#000"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:gravity="start"
+            android:text="- continuing to exercise and eat a healthy diet"
+            android:textColor="#000"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:gravity="start"
+            android:text="- have the flu jab in pregnancy"
+            android:textColor="#000"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginTop="20dp"
+            android:gravity="start"
+            android:text="Asthma and giving birth"
+            android:textColor="#000"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginTop="5dp"
+            android:gravity="start"
+            android:text="It is very rare to have an asthma attack during labour. If you have asthma symptoms during labour it’s safe to use your reliever inhaler as normal."
+            android:textColor="#000"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginTop="5dp"
+            android:gravity="start"
+            android:text="Make sure you tell your midwife and the hospital staff about any allergies you have."
+            android:textColor="#000"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginTop="5dp"
+            android:gravity="start"
+            android:text="Congenital heart disease and pregnancy"
+            android:textColor="#000"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginTop="5dp"
+            android:gravity="start"
+            android:text="Around 8 in 1,000 babies are born with something wrong with their heart. This can sometimes be called a cardiac abnormality, congenital heart disease, or congenital heart defect."
+            android:textColor="#000"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:gravity="start"
+            android:text="If you were born with a cardiac abnormality and have had a successful operation to correct it, you'll probably have some scarring of the heart. This may make you more prone to infections or an irregular heartbeat."
+            android:textColor="#000"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:gravity="start"
+            android:text="If you have heart disease you can have a successful pregnancy, but pregnancy puts your heart under significant strain. This can lead to problems, so talk to your doctor before you get pregnant or as soon as you know you're pregnant."
+            android:textColor="#000"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:gravity="start"
+            android:text="See a heart specialist (cardiologist)"
+            android:textColor="#000"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <!-- Continue with the same format for the remaining sections of the article -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginTop="5dp"
+            android:gravity="start"
+            android:text="If you were born with a heart problem and you're planning to have a baby, talk to your cardiologist before you get pregnant."
+            android:textColor="#000"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:gravity="start"
+            android:text="If you were treated for congenital heart disease as a baby or a child, you may not have seen a heart specialist for many years. So getting regular checks if you're planning a pregnancy, or are pregnant, is important."
+            android:textColor="#000"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:gravity="start"
+            android:text="If you do not have a cardiologist, ask a GP to refer you to one."
+            android:textColor="#000"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:gravity="start"
+            android:text="Your doctor can talk with you about:"
+            android:textColor="#000"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:gravity="start"
+            android:text="- any medicine you're taking and whether this may need adjusting in pregnancy"
+            android:textColor="#000"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:gravity="start"
+            android:text="- how your heart condition might affect your pregnancy"
+            android:textColor="#000"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:gravity="start"
+            android:text="- how pregnancy might affect your heart condition"
+            android:textColor="#000"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:gravity="start"
+            android:text="Do not stop taking your medicine until you've talked with your doctor."
+            android:textColor="#000"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginTop="20dp"
+            android:gravity="start"
+            android:text="Your care in pregnancy"
+            android:textColor="#000"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <!-- Continue with the same format for the remaining sections of the article -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginTop="5dp"
+            android:gravity="start"
+            android:text="You'll be referred to a hospital maternity unit for team-based care (the team will include a cardiologist, obstetrician, and midwife)."
+            android:textColor="#000"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:gravity="start"
+            android:text="You may be able to attend a special cardiac pregnancy clinic if there's one in your area. Ask your GP for details or contact The Somerville Foundation – a charity for grown-up congenital heart disease patients."
+            android:textColor="#000"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:gravity="start"
+            android:text="A congenital heart disease cardiologist will assess you and plan your care with you. It's hard to predict the effect of congenital heart disease on your pregnancy because each case is different."
+            android:textColor="#000"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:gravity="start"
+            android:text="The only way to estimate your risk and to determine what complications, if any, you might have during pregnancy is to have a careful assessment by a specialist."
+            android:textColor="#000"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:gravity="start"
+            android:text="It's important to know what problems could arise. Depending on what type of congenital heart disease you have, you may develop fluid on the lungs, heart failure or arrhythmia (an irregular and/or fast heartbeat)."
+            android:textColor="#000"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginTop="20dp"
+            android:gravity="start"
+            android:text="Your baby"
+            android:textColor="#000"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <!-- Continue with the same format for the remaining sections of the article -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginTop="5dp"
+            android:gravity="start"
+            android:text="Your congenital heart disease can affect your baby. Your baby may be smaller if your heart does not pump as efficiently as it should and delivers less oxygen and nutrients to the placenta and your developing baby."
+            android:textColor="#000"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:gravity="start"
+            android:text="Babies may be born prematurely. You'll be offered regular scans during pregnancy to ensure that your baby is growing normally and healthily."
+            android:textColor="#000"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:gravity="start"
+            android:text="Depending on the type of congenital heart disease you have, there's a chance that your baby could inherit the condition. For example, if you have Marfan syndrome there's a 1 in 2 chance your baby could inherit the condition."
+            android:textColor="#000"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:gravity="start"
+            android:text="The British Heart Foundation has information for parents on coping with a child's congenital heart disease."
+            android:textColor="#000"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:gravity="start"
+            android:text="You need to know as much as you can about your condition, so your baby can get special care if necessary when they are born."
+            android:textColor="#000"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:gravity="start"
+            android:text="Many, but not all, conditions in an unborn baby can be detected during pregnancy. The future management of your pregnancy and care of your baby will be discussed with you, and a specialist children's heart doctor (cardiac pediatrician) will advise you on the options available once your baby is born."
+            android:textColor="#000"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginTop="20dp"
+            android:gravity="start"
+            android:text="Treatment and self-management"
+            android:textColor="#000"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <!-- Continue with the same format for the remaining sections of the article -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginTop="5dp"
+            android:gravity="start"
+            android:text="The treatment you receive will depend on what condition you have. Your cardiologist will provide you with a tailored antenatal care plan."
+            android:textColor="#000"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:gravity="start"
+            android:text="This may mean that you have to change the medicines you take. For example, ACE inhibitors (a group of medicines used to treat heart failure) are not recommended during pregnancy. Your specialist will discuss this with you."
+            android:textColor="#000"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:gravity="start"
+            android:text="Do not stop taking your medicine without talking to your specialist first."
+            android:textColor="#000"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:gravity="start"
+            android:text="During your pregnancy, follow any advice your specialist gives you about managing your condition. Low-impact exercise, such as swimming and walking, is usually a good idea to keep you fit, but always speak to your midwife or doctor before starting any new exercise program."
+            android:textColor="#000"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginTop="20dp"
+            android:gravity="start"
+            android:text="Labour and birth"
+            android:textColor="#000"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <!-- Continue with the same format for the remaining sections of the article -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginTop="5dp"
+            android:gravity="start"
+            android:text="Discuss your options for where you can give birth with your healthcare team. This should include a cardiologist with experience in treating congenital heart disease in pregnancy."
+            android:textColor="#000"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:gravity="start"
+            android:text="You may be advised to give birth in the hospital."
+            android:textColor="#000"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:gravity="start"
+            android:text="Depending on the type and severity of heart disease, induction may not be recommended because of the effect the medicines used may have on the heart."
+            android:textColor="#000"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:gravity="start"
+            android:text="It's usually best to wait for spontaneous labor (labor that starts naturally), unless the baby has to be delivered early because you're unwell or the baby is not growing normally."
+            android:textColor="#000"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:gravity="start"
+            android:text="You will not be automatically advised to have a cesarean section because you have congenital heart disease. This will depend on the type and severity of your heart disease. Your healthcare team will discuss all your options with you."
+            android:textColor="#000"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:gravity="start"
+            android:text="However, it may be recommended that you have a pain-free labor, which means that you should have an epidural, and your doctor may use forceps or a vacuum delivery (ventouse) to assist you during the delivery, as this avoids the strain of having to push the baby out."
+            android:textColor="#000"
+            android:textSize="16sp" />
+
+        <!-- End of the article -->
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="10dp"
+            android:gravity="start"
+            android:text="Coronary heart disease and pregnancy"
+            android:textColor="#000"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:gravity="start"
+            android:text="Coronary heart disease (CHD) is when your arteries get narrower due to a build-up of fatty deposits inside them. This restricts the flow of blood and can lead to chest pain, called angina, or a heart attack.\n\nYour heart needs to work harder in pregnancy so, if you've got heart disease, it's important to get the right care and support. \n\nYou can develop heart problems for the first time during your pregnancy."
+            android:textColor="#000"
+            android:textSize="16sp" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginTop="5dp"
+            android:gravity="start"
+            android:text="Planning on getting pregnant"
+            android:textColor="#000"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:gravity="start"
+            android:text="If you have heart disease, the best way to ensure a healthy pregnancy is to visit your GP or heart specialist (cardiologist) before you start trying for a baby. This is called pre-pregnancy counseling or pre-conception counseling."
+            android:textColor="#000"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:gravity="start"
+            android:text="Your specialist can discuss with you:"
+            android:textColor="#000"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:gravity="start"
+            android:text="- how your heart condition might affect your pregnancy"
+            android:textColor="#000"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:gravity="start"
+            android:text="- how pregnancy might affect your heart condition"
+            android:textColor="#000"
+            android:textSize="16sp" />
+
+        <!-- Continue with the same format for the remaining sections of the article -->
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:gravity="start"
+            android:text="- your medicine – this may include a plan for stopping your medicine or switching to a different one to minimize the risks to you and your baby"
+            android:textColor="#000"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:gravity="start"
+            android:text="If it is not possible to stop taking certain medicines, your doctor can discuss the chances of any problems associated with this treatment during your pregnancy."
+            android:textColor="#000"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:gravity="start"
+            android:text="Do not stop taking any medicines without consulting your doctor or cardiologist first."
+            android:textColor="#000"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginTop="20dp"
+            android:gravity="start"
+            android:text="Aspirin"
+            android:textColor="#000"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <!-- Continue with the same format for the remaining sections of the article -->
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:gravity="start"
+            android:text="If you're taking low-dose aspirin for your condition, it's safe to continue during pregnancy."
+            android:textColor="#000"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginTop="20dp"
+            android:gravity="start"
+            android:text="Stent"
+            android:textColor="#000"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:gravity="start"
+            android:text="If you have had a stent (a tiny tube used to widen a blood vessel) inserted to stop your arteries from becoming narrowed or blocked, you'll need to discuss with your cardiologist:"
+            android:textColor="#000"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="20dp"
+            android:gravity="start"
+            android:text="- how pregnancy may affect the stent"
+            android:textColor="#000"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="20dp"
+            android:gravity="start"
+            android:text="- the best way of managing the stent in pregnancy so it works properly"
+            android:textColor="#000"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginTop="20dp"
+            android:gravity="start"
+            android:text="Getting ready for pregnancy"
+            android:textColor="#000"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <!-- Continue with the same format for the remaining sections of the article -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:gravity="start"
+            android:text="You can prepare for pregnancy by:"
+            android:textColor="#000"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="20dp"
+            android:gravity="start"
+            android:text="- losing weight, if you're overweight"
+            android:textColor="#000"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="20dp"
+            android:gravity="start"
+            android:text="- not smoking"
+            android:textColor="#000"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="20dp"
+            android:gravity="start"
+            android:text="- exercising regularly"
+            android:textColor="#000"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:gravity="start"
+            android:text="What are the problems of CHD in pregnancy?"
+            android:textColor="#000"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <!-- Continue with the same format for the remaining sections of the article -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:gravity="start"
+            android:text="The main risk if you are pregnant and you have CHD is having a heart attack. Cardiac disease is rare in pregnancy, but it is a leading cause of death in pregnancy."
+            android:textColor="#000"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginTop="5dp"
+            android:gravity="start"
+            android:text="The chances of any harm to your baby are unknown, although some of the medicines you may be taking for your CHD or related conditions, such as diabetes or high blood pressure, may affect your baby."
+            android:textColor="#000"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:gravity="start"
+            android:text="You have a higher chance of developing CHD if you:"
+            android:textColor="#000"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="20dp"
+            android:gravity="start"
+            android:text="- smoke"
+            android:textColor="#000"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="20dp"
+            android:gravity="start"
+            android:text="- are overweight"
+            android:textColor="#000"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="20dp"
+            android:gravity="start"
+            android:text="- have a family history of early CHD – if your father or brother was diagnosed with CHD before the age of 55, or your mother or sister was diagnosed before the age of 65"
+            android:textColor="#000"
+            android:textSize="16sp" />
+
+        <!-- Continue with the same format for the remaining sections of the article -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="20dp"
+            android:gravity="start"
+            android:text="- have diabetes"
+            android:textColor="#000"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="20dp"
+            android:gravity="start"
+            android:text="- have high blood pressure"
+            android:textColor="#000"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="20dp"
+            android:gravity="start"
+            android:text="- are older – the older you are, the more likely you are to develop heart disease"
+            android:textColor="#000"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:gravity="start"
+            android:text="Your care in pregnancy"
+            android:textColor="#000"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <!-- Continue with the same format for the remaining sections of the article -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:gravity="start"
+            android:text="During your pregnancy, you should be under the care of a consultant obstetrician and a cardiologist in a hospital maternity unit."
+            android:textColor="#000"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginTop="5dp"
+            android:gravity="start"
+            android:text="You can expect to have more frequent antenatal check-ups, particularly if your CHD is related to other conditions, such as diabetes or high blood pressure."
+            android:textColor="#000"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:gravity="start"
+            android:text="Make sure you attend all your appointments or reschedule them if you have to cancel."
+            android:textColor="#000"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:gravity="start"
+            android:text="While you're pregnant you should:"
+            android:textColor="#000"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <!-- Continue with the same format for the remaining sections of the article -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="20dp"
+            android:gravity="start"
+            android:text="- eat a balanced diet – find out more about a healthy diet in pregnancy and foods to avoid in pregnancy"
+            android:textColor="#000"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="20dp"
+            android:gravity="start"
+            android:text="- control your weight"
+            android:textColor="#000"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="20dp"
+            android:gravity="start"
+            android:text="- exercise – but speak to your midwife or GP before taking up any new exercise"
+            android:textColor="#000"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="20dp"
+            android:gravity="start"
+            android:text="- stop smoking"
+            android:textColor="#000"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:gravity="start"
+            android:text="Labour and birth"
+            android:textColor="#000"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <!-- Continue with the same format for the remaining sections of the article -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:gravity="start"
+            android:text="Discuss your options for where you can give birth with your healthcare team. This should include a heart specialist with experience in treating heart disease during pregnancy."
+            android:textColor="#000"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginTop="5dp"
+            android:gravity="start"
+            android:text="You may be advised to give birth in a hospital."
+            android:textColor="#000"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginTop="20dp"
+            android:gravity="start"
+            android:text="Diabetes and pregnancy"
+            android:textColor="#000"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:gravity="start"
+            android:text="If you become pregnant and you have diabetes, you should go on to have a healthy baby. But there are some possible complications you should be aware of."
+            android:textColor="#000"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:gravity="start"
+            android:text="The information on this page is relevant for you if you were diagnosed with type 1 or type 2 diabetes before you got pregnant."
+            android:textColor="#000"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:gravity="start"
+            android:text="It does not cover gestational diabetes, which is high blood sugar that develops during pregnancy and usually goes away after the baby is born."
+            android:textColor="#000"
+            android:textSize="16sp" />
+
+        <!-- Continue with the same format for the remaining sections of the article -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:gravity="start"
+            android:text="What it means for you"
+            android:textColor="#000"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:gravity="start"
+            android:text="If you have type 1 or type 2 diabetes, you may be at higher risk of having:"
+            android:textColor="#000"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="20dp"
+            android:gravity="start"
+            android:text="- a large baby – which increases the risk of a difficult birth, having your labour induced or needing a caesarean section"
+            android:textColor="#000"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="20dp"
+            android:gravity="start"
+            android:text="- a miscarriage"
+            android:textColor="#000"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:gravity="start"
+            android:text="People with diabetes (whether they are pregnant or not) are at risk of developing problems with their eyes (diabetic retinopathy) and kidneys (diabetic nephropathy)."
+            android:textColor="#000"
+            android:textSize="16sp" />
+
+        <!-- Continue with the same format for the remaining sections of the article -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:gravity="start"
+            android:text="What it means for your baby"
+            android:textColor="#000"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:gravity="start"
+            android:text="If you have type 1 or type 2 diabetes, your baby may be at higher risk of:"
+            android:textColor="#000"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="20dp"
+            android:gravity="start"
+            android:text="- having health problems shortly after birth, such as heart and breathing problems, and needing hospital care"
+            android:textColor="#000"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="20dp"
+            android:gravity="start"
+            android:text="- developing obesity or diabetes later in life"
+            android:textColor="#000"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:gravity="start"
+            android:text="There's also a slightly higher chance of your baby being born with birth defects, particularly heart and nervous system abnormalities, or being stillborn or dying soon after birth."
+            android:textColor="#000"
+            android:textSize="16sp" />
+
+        <!-- Continue with the same format for the remaining sections of the article -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:gravity="start"
+            android:text="Reducing the risks"
+            android:textColor="#000"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:gravity="start"
+            android:text="The best way to reduce the risks to you and your baby is to ensure your diabetes is well controlled before you become pregnant. So, ideally, a pregnancy should be planned."
+            android:textColor="#000"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:gravity="start"
+            android:text="Before you start trying for a baby, ask your GP or diabetes specialist (diabetologist) for advice. You should be referred to a diabetic pre-conception clinic for support."
+            android:textColor="#000"
+            android:textSize="16sp" />
+
+        <!-- Continue with the same format for the remaining sections of the article -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:gravity="start"
+            android:text="You should be offered a blood test, called an HbA1c test, every month. This measures the level of glucose in your blood."
+            android:textColor="#000"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:gravity="start"
+            android:text="It's best if the level is no more than 6.5% before you get pregnant. If you cannot get your level below 6.5%, try to get it as close as possible to reduce the risk of complications for you and your baby."
+            android:textColor="#000"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:gravity="start"
+            android:text="If your blood glucose level is above 10%, your care team should strongly advise you not to try for a baby until it has fallen."
+            android:textColor="#000"
+            android:textSize="16sp" />
+
+        <!-- Continue with the same format for the remaining sections of the article -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:gravity="start"
+            android:text="You should continue using contraceptives until you get your blood glucose under control. A GP or diabetes specialist can advise you about how best to do this."
+            android:textColor="#000"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:gravity="start"
+            android:text="If you have type 1 diabetes, you should be given testing strips and a monitor to test your blood ketone levels, to check for diabetic ketoacidosis. You should use these if your blood glucose levels are high, or if you are being sick or have diarrhoea."
+            android:textColor="#000"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:gravity="start"
+            android:text="Folic acid"
+            android:textColor="#000"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:gravity="start"
+            android:text="If you have diabetes and are trying to get pregnant, you should take 5 milligrams (mg) of folic acid each day (and until you are 12 weeks pregnant). A doctor will have to prescribe this, because you cannot buy 5mg tablets from a pharmacy or shop without a prescription."
+            android:textColor="#000"
+            android:textSize="16sp" />
+
+        <!-- Continue with the same format for the remaining sections of the article -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:gravity="start"
+            android:text="Taking folic acid helps prevent your baby developing birth defects, such as spina bifida."
+            android:textColor="#000"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:gravity="start"
+            android:text="Your diabetes treatment in pregnancy"
+            android:textColor="#000"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:gravity="start"
+            android:text="Your doctors may recommend changing your treatment regime during pregnancy."
+            android:textColor="#000"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:gravity="start"
+            android:text="If you usually take tablets to control your diabetes, you'll normally be advised to switch to insulin injections, either with or without a medicine called metformin."
+            android:textColor="#000"
+            android:textSize="16sp" />
+
+        <!-- Continue with the same format for the remaining sections of the article -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:gravity="start"
+            android:text="If you already use insulin injections to control your diabetes, you may need to switch to a different type of insulin."
+            android:textColor="#000"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:gravity="start"
+            android:text="If you take medicines for conditions related to your diabetes, such as high blood pressure, these may have to be changed."
+            android:textColor="#000"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:gravity="start"
+            android:text="It's very important to attend any appointments made for you so that your care team can monitor your condition and react to any changes that could affect your or your baby's health."
+            android:textColor="#000"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:gravity="start"
+            android:text="You will need to monitor your blood glucose levels more frequently during pregnancy, especially since nausea and vomiting in pregnancy (known as “morning sickness”, although it can happen at any time of the day) can affect them. Your GP or midwife will be able to advise you on this."
+            android:textColor="#000"
+            android:textSize="16sp" />
+
+        <!-- Continue with the same format for the remaining sections of the article -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:gravity="start"
+            android:text="Keeping your blood glucose levels low may mean you have more low-blood-sugar (hypoglycaemic) attacks ('hypos'). These are harmless for your baby, but you and your partner need to know how to cope with them. Talk to your doctor or diabetes specialist."
+            android:textColor="#000"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:gravity="start"
+            android:text="Diabetic eye screening in pregnancy"
+            android:textColor="#000"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:gravity="start"
+            android:text="You will be offered regular diabetic eye screening during your pregnancy. This is to check for signs of diabetic eye disease (diabetic retinopathy)."
+            android:textColor="#000"
+            android:textSize="16sp" />
+
+        <!-- Continue with the same format for the remaining sections of the article -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:gravity="start"
+            android:text="Screening is very important when you are pregnant because the risk of serious eye problems is greater in pregnancy."
+            android:textColor="#000"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:gravity="start"
+            android:text="Diabetic retinopathy is treatable, especially if it is caught early."
+            android:textColor="#000"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:gravity="start"
+            android:text="If you decide not to have regular screening tests, you should tell the clinician looking after your diabetes care during pregnancy."
+            android:textColor="#000"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:gravity="start"
+            android:text="Labour and birth"
+            android:textColor="#000"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:gravity="start"
+            android:text="If you have diabetes, it's strongly recommended that you give birth in a hospital with the support of a consultant-led maternity team."
+            android:textColor="#000"
+            android:textSize="16sp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:gravity="start"
+            android:text="Your doctors may recommend having your labour started early (induced). This is because there may be an increased risk of complications for you or your baby if your pregnancy carries on for too long."
+            android:textColor="#000"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:gravity="start"
+            android:text="If your baby is larger than expected, your doctors might discuss your options for the delivery and may suggest an elective caesarean section."
+            android:textColor="#000"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:gravity="start"
+            android:text="Your blood glucose should be measured every hour during labour and birth. You may be given a drip in your arm with insulin and glucose if there are problems."
+            android:textColor="#000"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:gravity="start"
+            android:text="After the birth"
+            android:textColor="#000"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:gravity="start"
+            android:text="Feed your baby as soon as possible after the birth (within 30 minutes) to help keep their blood glucose at a safe level."
+            android:textColor="#000"
+            android:textSize="16sp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:gravity="start"
+            android:text="Your baby will have a heel prick blood test (or newborn blood spot test) a few hours after they're born to check if their blood glucose level is too low."
+            android:textColor="#000"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:gravity="start"
+            android:text="If your baby's blood glucose cannot be kept at a safe level, or they're having problems feeding, they may need extra care. Your baby may need to be fed through a tube or given a drip to increase their blood glucose."
+            android:textColor="#000"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:gravity="start"
+            android:text="After your pregnancy, you should not need as much insulin to control your blood glucose. You should be able to decrease your insulin to your pre-pregnancy dose or return to the tablets you were taking before you became pregnant. Talk to your doctor about this."
+            android:textColor="#000"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:gravity="start"
+            android:text="You should be offered a test to check your blood glucose levels before you go home and at your 6-week postnatal check. You should also be given advice about diet and exercise."
+            android:textColor="#000"
+            android:textSize="16sp" />
+
+
+    </LinearLayout>
+</ScrollView>

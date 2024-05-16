@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp"
+        tools:ignore="ExtraText">
+
+        <ImageView
+            android:layout_width="251dp"
+            android:layout_height="213dp"
+            android:layout_gravity="center"
+            android:src="@drawable/logo"
+            android:contentDescription="@string/about_us" />
+
+        <TextView
+            android:id="@+id/app_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/ic_logo"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:text="LadyCompanion"
+            android:textAlignment="center"
+            android:textSize="26sp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <!-- Title: About Us -->
+            <TextView
+                android:id="@+id/textViewAboutUsTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="About Us"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <!-- Content: Welcome Message -->
+            <TextView
+                android:id="@+id/textViewWelcomeMessage"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Welcome to LadyCompanion – where safety meets empowerment! We are Team CYK7, known as EQUITECH, and we're on a mission to revolutionize women's safety through technology."
+                android:layout_marginTop="16dp"/>
+
+            <!-- Subtitle: Our Mission -->
+            <TextView
+                android:id="@+id/textViewMissionSubtitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Our Mission"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_marginTop="16dp" />
+
+            <!-- Content: Mission Statement -->
+            <TextView
+                android:id="@+id/textViewMissionContent"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="LadyCompanion is more than an app; it's a commitment to achieving Sustainable Development Goal 5 - Gender Equality. We believe in a world free from discrimination and violence, and our app is designed to empower all women and girls."
+                android:layout_marginTop="8dp"/>
+
+            <!-- Subtitle: What We Offer -->
+            <TextView
+                android:id="@+id/textViewOfferSubtitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="What We Offer"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_marginTop="16dp" />
+
+            <!-- Content: Features -->
+
+            <TextView
+                android:id="@+id/textViewFeaturesContent"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Functionality That Matters"
+                android:textStyle="bold"
+                android:layout_marginTop="8dp" />
+
+            <TextView
+                android:id="@+id/textViewFeaturesContent1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="LadyCompanion offers a range of features like one-click emergency assistance, user forums, informative chatbots, and automatic unsafe area warnings."
+                android:layout_marginTop="8dp"/>
+
+            <TextView
+                android:id="@+id/textViewFeaturesContent2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="User-Centric Design"
+                android:textStyle="bold"
+                android:layout_marginTop="8dp" />
+
+            <TextView
+                android:id="@+id/textViewFeaturesContent3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Our team has meticulously crafted a user-friendly interface to ensure a seamless and visually appealing experience."
+                android:layout_marginTop="8dp"/>
+
+            <TextView
+                android:id="@+id/textViewFeaturesContent4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Survey-Driven Development"
+                android:textStyle="bold"
+                android:layout_marginTop="8dp" />
+
+            <TextView
+                android:id="@+id/textViewFeaturesContent5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="We've listened to your needs through surveys, and the positive responses have fueled our dedication to delivering a meaningful and impactful app."
+                android:layout_marginTop="8dp"/>
+
+
+            <!-- Subtitle: Our Team -->
+            <TextView
+                android:id="@+id/textViewTeamSubtitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Our Team"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_marginTop="16dp" />
+
+            <!-- Team Images -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center_vertical">
+
+                <ImageView
+                    android:id="@+id/imageView1"
+                    android:layout_width="0dp"
+                    android:layout_height="100dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/ahmed_img"
+                    android:scaleType="fitCenter"
+                    android:layout_marginEnd="4dp"/>
+
+                <ImageView
+                    android:id="@+id/imageView2"
+                    android:layout_width="0dp"
+                    android:layout_height="100dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/hari_img"
+                    android:scaleType="fitCenter"
+                    android:layout_marginEnd="4dp"/>
+
+                <ImageView
+                    android:id="@+id/imageView3"
+                    android:layout_width="0dp"
+                    android:layout_height="100dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/bimo_img"
+                    android:scaleType="fitCenter"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center_vertical"
+                android:layout_marginTop="8dp">
+
+                <ImageView
+                    android:id="@+id/imageView4"
+                    android:layout_width="0dp"
+                    android:layout_height="100dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/nico_img"
+                    android:scaleType="fitCenter"
+                    android:layout_marginEnd="4dp"/>
+
+                <ImageView
+                    android:id="@+id/imageView5"
+                    android:layout_width="0dp"
+                    android:layout_height="100dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/mouawia_img"
+                    android:scaleType="fitCenter"
+                    android:layout_marginEnd="4dp"/>
+
+                <ImageView
+                    android:id="@+id/imageView6"
+                    android:layout_width="0dp"
+                    android:layout_height="100dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/amjad_img"
+                    android:scaleType="fitCenter"/>
+
+            </LinearLayout>
+
+            <!-- Closing Message -->
+            <TextView
+                android:id="@+id/textViewClosingMessage"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Together, let's create a safer, more empowered world. LadyCompanion is not just an app; it's a movement towards gender equality and women's empowerment."
+                android:layout_marginTop="16dp"/>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

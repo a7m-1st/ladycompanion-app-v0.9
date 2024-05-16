@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:maxHeight="130dp">
+
+
+    <ImageView
+        android:id="@+id/ListItemBG"
+        android:layout_width="386dp"
+        android:layout_height="130dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="5dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/rectanglebgborder" />
+
+    <ImageButton
+        android:id="@+id/viewOnMapButton"
+        android:layout_width="204dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="7dp"
+        android:background="#00FFFFFF"
+        android:contentDescription="View On Map"
+        android:scaleType="centerInside"
+        app:layout_constraintEnd_toEndOf="@+id/ListItemBG"
+        app:layout_constraintTop_toTopOf="@+id/ListItemBG"
+        app:srcCompat="@drawable/viewonmapbutton" />
+
+    <ImageButton
+        android:id="@+id/RejectButton"
+        android:layout_width="204dp"
+        android:layout_height="53dp"
+        android:layout_marginEnd="19dp"
+        android:layout_marginBottom="18dp"
+        android:background="#00FFFFFF"
+        android:contentDescription="Reject Entry"
+        android:scaleType="centerInside"
+        app:layout_constraintBottom_toTopOf="@+id/divider"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:srcCompat="@drawable/rejectentrybutton" />
+
+    <TextView
+        android:id="@+id/LocationName"
+        android:layout_width="164dp"
+        android:layout_height="76dp"
+        android:text="Location ABC"
+        android:textColor="#000000"
+        app:layout_constraintBottom_toBottomOf="@+id/ListItemBG"
+        app:layout_constraintEnd_toEndOf="@+id/ListItemBG"
+        app:layout_constraintHorizontal_bias="0.043"
+        app:layout_constraintStart_toStartOf="@+id/ListItemBG"
+        app:layout_constraintTop_toTopOf="@+id/ListItemBG" />
+
+    <View
+        android:id="@+id/divider"
+        android:layout_width="409dp"
+        android:layout_height="1dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginEnd="1dp"
+        android:background="?android:attr/listDivider"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ListItemBG" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_ladyapp_login"
+    app:startDestination="@id/DestLogin">
+
+    <fragment
+        android:id="@+id/DestForgotPassword"
+        android:name="com.example.BimoPart.fragment_forgotpassword"
+        android:label="fragment_forgotpassword">
+        <action
+            android:id="@+id/action_DestForgotPassword_to_DestLogin"
+            app:destination="@id/DestLoginTree" />
+        <action
+            android:id="@+id/action_DestForgotPassword_to_fragment_resetpassword"
+            app:destination="@id/DestResetPassword" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/DestSignup"
+        android:name="com.example.BimoPart.fragment_signup"
+        android:label="fragment_signup">
+        <action
+            android:id="@+id/action_DestSignup_to_DestLogin"
+            app:destination="@id/DestLoginTree" />
+        <action
+            android:id="@+id/action_DestSignup_to_fragment_login"
+            app:destination="@id/DestLogin" />
+
+    </fragment>
+    <fragment
+        android:id="@+id/DestResetPassword"
+        android:name="com.example.BimoPart.fragment_resetpassword"
+        android:label="fragment_resetpassword"
+        tools:layout="@layout/fragment_resetpassword" >
+        <action
+            android:id="@+id/action_fragment_resetpassword_to_DestForgotPassword"
+            app:destination="@id/DestForgotPassword" />
+        <action
+            android:id="@+id/action_fragment_resetpassword_to_fragment_login"
+            app:destination="@id/DestLogin" />
+    </fragment>
+    <fragment
+        android:id="@+id/DestLogin"
+        android:name="com.example.BimoPart.fragment_login"
+        android:label="fragment_login"
+        tools:layout="@layout/fragment_login" >
+        <action
+            android:id="@+id/action_fragment_login_to_DestSignup"
+            app:destination="@id/DestSignup" />
+        <action
+            android:id="@+id/action_fragment_login_to_fragment_resetpassword"
+            app:destination="@id/DestResetPassword" />
+        <action
+            android:id="@+id/action_DestLogin_to_welcomePage"
+            app:destination="@id/welcomePage" />
+    </fragment>
+    <fragment
+        android:id="@+id/welcomePage"
+        android:name="com.example.BimoPart.WelcomePage"
+        android:label="fragment_welcome_page"
+        tools:layout="@layout/fragment_welcome_page" >
+        <action
+            android:id="@+id/action_welcomePage_to_DestLogin"
+            app:destination="@id/DestLogin" />
+    </fragment>
+</navigation>

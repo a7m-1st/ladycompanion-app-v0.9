@@ -1,0 +1,445 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.AmjadPart.fragment_pregnancyComplications"
+    android:background="@color/ladypink">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="10dp"
+            android:gravity="start"
+            android:text="Pregnancy complications"
+            android:textColor="#000"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginTop="5dp"
+            android:gravity="start"
+            android:text="Read about pregnancy complications and when you should get help."
+            android:textColor="#000"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="10dp"
+            android:gravity="start"
+            android:text="Deep vein thrombosis in pregnancy"
+            android:textColor="#000"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginTop="5dp"
+            android:gravity="start"
+            android:text="Deep vein thrombosis (DVT) is a serious condition where a blood clot forms in a deep vein in the body, usually in the leg.\n\nCall your GP, midwife, or 111 immediately if you have:\n- Pain, swelling, and tenderness in 1 leg, usually at the back of your lower leg (calf) – the pain may be worse when you walk\n- A heavy ache or warm skin in the affected area\n- Red skin, particularly at the back of your leg below the knee\n\nThese can be signs of deep vein thrombosis. It usually happens in only 1 leg, but not always.\n\nIf the clot breaks off into the bloodstream, it can block 1 blood vessel in the lungs. This is called a pulmonary embolism (PE) and needs emergency treatment.\n\nCall 999 immediately if you:\n- Have sudden difficulty breathing\n- Have pain or tightness in your chest or upper back\n- Are coughing blood\n\nThese can be signs of a blood clot in the lungs (pulmonary embolism).\n\nPE can be fatal, but the risk of developing a PE is very small if DVT is diagnosed and treated.\nDVT is not common in pregnancy. But you're more likely to develop DVT at any stage of your pregnancy and up to 6 weeks after the birth than people of the same age who are not pregnant.\nDVT does not always have symptoms.\nDuring pregnancy, it's common to have swelling or discomfort in your legs, so this on its own does not always mean there's a serious problem."
+            android:textColor="#000"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <!-- Are you at risk? -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="10dp"
+            android:gravity="start"
+            android:text="Are you at risk?"
+            android:textColor="#000"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginTop="5dp"
+            android:gravity="start"
+            android:text="Your risk of developing DVT during pregnancy is even greater if you:\n- Or a close family member have had a blood clot before\n- Are over 35\n- Are obese (have a body mass index of 30 or more)\n- Have had a severe infection or recent serious injury, such as a broken leg\n- Have a condition that makes clots more likely (thrombophilia)\n- Are carrying twins or multiple babies\n- Have had fertility treatment\n- Are having a caesarean section\n- Smoke – get support to stop smoking\n- Have severe varicose veins (ones that are painful or above the knee with redness or swelling)\n- Are dehydrated"
+            android:textColor="#000"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <!-- Managing DVT in Pregnancy -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="10dp"
+            android:gravity="start"
+            android:text="Managing DVT in pregnancy"
+            android:textColor="#000"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginTop="5dp"
+            android:gravity="start"
+            android:text="If you develop a DVT while pregnant, you'll probably need injections of a medicine to stop the blood clot getting bigger so your body can dissolve it.\n\nThe medicine, called heparin, does not affect your developing baby.\n\nThe injections also reduce your risk of getting a PE and developing another clot.\n\nYou'll usually need to have the injections for the rest of your pregnancy and until at least 6 weeks after the birth of your baby.\n\nAlthough medical treatment for DVT is essential, there are also things you can do to help yourself.\n\nThese include:\n- Staying as active as you can – your midwife or doctor can advise you on this\n- Wearing prescribed compression stockings to help the circulation in your legs"
+            android:textColor="#000"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <!-- Travel and DVT -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="10dp"
+            android:gravity="start"
+            android:text="Travel and DVT"
+            android:textColor="#000"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginTop="5dp"
+            android:gravity="start"
+            android:text="Travelling for longer than 4 hours (long-haul travel) increases your risk of developing DVT.\n\nIt's not known if this risk is greater during pregnancy, but to reduce the risk of DVT while you're travelling:\n- Drink plenty of water\n- Avoid drinking alcohol in pregnancy\n- Perform simple leg exercises, such as regularly flexing your ankles – if you're on a flight, most airlines provide information about exercises you can do to during the flight\n- If possible, walk about during refuelling stops or walk up and down the bus, train, or plane (when it's safe to do so)"
+            android:textColor="#000"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="10dp"
+            android:gravity="start"
+            android:text="Things you can try yourself to reduce high blood pressure"
+            android:textColor="#000"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginTop="5dp"
+            android:gravity="start"
+            android:text="Keeping active and doing some physical activity each day, such as walking or swimming, can help keep your blood pressure in the normal range. Eating a balanced diet and keeping your salt intake low can help to reduce blood pressure.\nThere isn't enough evidence to show that dietary supplements – such as magnesium, folic acid, or fish oils – are effective at preventing high blood pressure."
+            android:textColor="#000"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <!-- Pre-eclampsia -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="10dp"
+            android:gravity="start"
+            android:text="Pre-eclampsia"
+            android:textColor="#000"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginTop="5dp"
+            android:gravity="start"
+            android:text="Pre-eclampsia is a condition that affects some pregnant women, typically after 20 weeks.\nIt is a problem with the placenta that usually causes your blood pressure to rise. If left untreated, pre-eclampsia can be dangerous for you and your baby.\nPre-eclampsia is more common if you had high blood pressure before becoming pregnant, if you had pre-eclampsia in a previous pregnancy, or if you have a family history of your mother or sister developing pre-eclampsia.\nYou can feel well if you have high blood pressure, so it is important to attend your regular check-ups to have your blood pressure and urine tested."
+            android:textColor="#000"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <!-- Labour and Birth -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="10dp"
+            android:gravity="start"
+            android:text="Labour and Birth"
+            android:textColor="#000"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginTop="5dp"
+            android:gravity="start"
+            android:text="If you're taking medicine throughout pregnancy to control your blood pressure, keep taking it during labour.\nIf you have mild or moderate hypertension, your blood pressure should be monitored hourly during labour. As long as your blood pressure remains within target levels, you should be able to have a natural vaginal birth.\nIf you have severe hypertension, your blood pressure will be monitored every 15 to 30 minutes in labour. Your doctors may also recommend your baby be delivered using forceps or ventouse, or by caesarean section.\nAfter the birth, your blood pressure will be monitored.\nIf you had hypertension before you got pregnant, your treatment should be checked 2 weeks after your baby is born."
+            android:textColor="#000"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <!-- Check-ups after the Birth -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="10dp"
+            android:gravity="start"
+            android:text="Check-ups after the Birth"
+            android:textColor="#000"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginTop="5dp"
+            android:gravity="start"
+            android:text="If you developed hypertension while you were pregnant and you're still taking medicine after the birth, you should be offered an appointment with a doctor 2 weeks after you transfer from hospital care to community midwives, or 2 weeks after the birth if you had a home birth.\nThis is to check whether your treatment needs to be changed or stopped.\nEveryone with hypertension in pregnancy should also be offered an appointment with a GP or specialist 6 to 8 weeks after their baby is born.\nThis appointment is to check your blood pressure and is separate from your 6-week postnatal check."
+            android:textColor="#000"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <!-- Breastfeeding -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="10dp"
+            android:gravity="start"
+            android:text="Breastfeeding"
+            android:textColor="#000"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginTop="5dp"
+            android:gravity="start"
+            android:text="You should be able to breastfeed if you need to take hypertension medicine. Your treatment can be changed if needed, in agreement with your doctor.\nHypertension medicines can pass into breast milk. Most lead to very low levels in breast milk, and the amount taken in by babies is very small.\nMost medicines are not tested during pregnancy or breastfeeding. Disclaimers or warnings in the manufacturer's information are not because of specific safety concerns or evidence of harm.\nTalk to your midwife or doctor about breastfeeding if you're taking medicine."
+            android:textColor="#000"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="10dp"
+            android:gravity="start"
+            android:text="Mild Itching"
+            android:textColor="#000"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginTop="5dp"
+            android:gravity="start"
+            android:text="Wearing loose clothes may help prevent itching, as your clothes are less likely to rub against your skin and cause irritation.\nYou may also want to avoid synthetic materials and opt for natural ones, such as cotton, instead. These are (breathable) and allow the air to circulate close to your skin.\nYou may find having a cool bath or applying lotion or moisturiser can help soothe the itching.\nSome women find that products with strong perfumes can irritate their skin, so you could try using unperfumed lotion or soap.\nMild itching is not usually harmful to you or your baby, but it can sometimes be a sign of a more serious condition, particularly if you notice it more in the evenings or at night.\nLet your midwife or doctor know if you are experiencing itching so they can decide whether you need to have any further investigations."
+            android:textColor="#000"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <!-- Intrahepatic Cholestasis of Pregnancy (ICP) -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="10dp"
+            android:gravity="start"
+            android:text="Intrahepatic Cholestasis of Pregnancy (ICP)"
+            android:textColor="#000"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginTop="5dp"
+            android:gravity="start"
+            android:text="Intrahepatic cholestasis of pregnancy (ICP) is a potentially serious liver disorder that can develop in pregnancy.\nNormally, bile acids flow from your liver to your gut to help you digest food.\nIn ICP, the bile acids do not flow properly and build up in your body instead. There's no cure for ICP, but it should go once you've had your baby.\nICP seems to run in families, but it can happen even if there is no family history. It is more common in women of south Asian origin, affecting around 1 in 70 to 80 pregnancies.\nIf you have had ICP in a previous pregnancy, you have a high chance of developing it again in another pregnancy.\nSome studies have found that babies whose mothers have ICP have a higher chance of being born prematurely or stillborn.\nBecause of the link with stillbirth, you may be offered induction of labour. This could be any time from 35 weeks, depending on the level of bile acids in your blood.\nIf you have ICP, you will probably be advised to give birth in hospital under a consultant-led maternity team."
+            android:textColor="#000"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <!-- Diagnosis and Treatment of ICP -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="10dp"
+            android:gravity="start"
+            android:text="Diagnosis and Treatment of ICP"
+            android:textColor="#000"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginTop="5dp"
+            android:gravity="start"
+            android:text="ICP is diagnosed by excluding other causes of the itch. Your doctor will probably talk to you about your medical and family history and advise you to have some blood tests.\nThese will include tests to check your liver function (LFT) and measure your bile acid levels (BA).\n\nMonitoring your condition\nIf you are diagnosed with ICP, you will have regular liver blood tests (LFTs) and bile acid measurement tests so your doctor can monitor your condition.\nInitially, you may be given these tests every week. You may then be given more, or less, frequent tests depending on the results and your symptoms."
+            android:textColor="#000"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <!-- Creams and Medicines for ICP -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="10dp"
+            android:gravity="start"
+            android:text="Creams and Medicines for ICP"
+            android:textColor="#000"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginTop="5dp"
+            android:gravity="start"
+            android:text="Creams, such as aqueous cream with menthol, are safe to use in pregnancy and can provide some relief from itching.\nA medicine called ursodeoxycholic acid (UDCA) can be prescribed to try to relieve itching. But recent evidence suggests it may not be effective in reducing bile acids and easing itching.\nUDCA is considered safe to take in pregnancy, although it is prescribed on what is known as an (informed consent) basis as it has not been properly tested in pregnancy. It is usually only prescribed by a hospital doctor.\nA possible alternative, which can be helpful if itchiness is keeping you awake at night, is antihistamine medicine, such as chlorphenamine. Chlorphenamine tends to cause drowsiness so it can also help with sleep problems as well as itchiness. If you do feel drowsy do not drive or operate machinery.\nYou may also be offered a vitamin K supplement. This is because ICP can affect your absorption of vitamin K, which is important for healthy blood clotting.\nMost experts on ICP only prescribe vitamin K if the mother-to-be reports pale poo, has a known blood clotting problem, or has very severe ICP from early in pregnancy.\nIf you are diagnosed with ICP, your midwife and doctor will discuss your health and your options with you."
+            android:textColor="#000"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="10dp"
+            android:gravity="start"
+            android:text="Will Hyperemesis Gravidarum Harm My Baby?"
+            android:textColor="#000"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginTop="5dp"
+            android:gravity="start"
+            android:text="HG can make you feel very unwell, but it's unlikely to harm your baby if treated effectively.\nHowever, if it causes you to lose weight during pregnancy, there is an increased risk that your baby may be born smaller than expected (have a low birthweight)."
+            android:textColor="#000"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <!-- How you might feel -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="10dp"
+            android:gravity="start"
+            android:text="How You Might Feel"
+            android:textColor="#000"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginTop="5dp"
+            android:gravity="start"
+            android:text="The nausea and vomiting of HG can impact your life at a time when you were expecting to be enjoying pregnancy and looking forward to the birth of your baby.\nIt can affect you both emotionally and physically. The symptoms can be hard to cope with. Without treatment HG may also lead to further health complications, such as depression or tears in your oesophagus.\nSevere sickness can be exhausting and stop you doing everyday tasks, such as going to work or even getting out of bed.\nIn addition to feeling very unwell and tired, you might also feel:\n\n- anxious about going out or being too far from home in case you need to vomit\n- isolated because you do not know anyone who understands what it's like to have HG\n- confused as to why this is happening to you\n- unsure about how to cope with the rest of the pregnancy if you continue to feel very ill\n\nIf you feel any of these, do not keep it to yourself. Talk to your midwife or doctor, and explain the impact HG is having on your life and how it is making you feel. You could also talk to a partner, family members and friends if you want to.\nIf you want to talk to someone who has been through HG, you can contact Pregnancy Sickness Support's help section. They have a support network across the UK and can put you in touch with someone who has had HG.\nBear in mind that HG is much worse than regular pregnancy sickness. It is not the result of anything you have or have not done, and you do need treatment and support."
+            android:textColor="#000"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <!-- Another pregnancy -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="10dp"
+            android:gravity="start"
+            android:text="Another Pregnancy"
+            android:textColor="#000"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginTop="5dp"
+            android:gravity="start"
+            android:text="If you have had HG before, it's likely you will get it again in another pregnancy.\nIf you decide on another pregnancy, it can help to plan ahead, such as arranging child care so you can get plenty of rest.\nYou could try doing things that helped last time.\nTalk to your doctor about starting medicine early."
+            android:textColor="#000"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <!-- Blood clots and hyperemesis gravidarum -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="10dp"
+            android:gravity="start"
+            android:text="Blood Clots and Hyperemesis Gravidarum"
+            android:textColor="#000"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginTop="5dp"
+            android:gravity="start"
+            android:text="Because HG can cause dehydration, there's also an increased risk of having a blood clot (deep vein thrombosis), although this is rare. \n\nIf you are dehydrated and immobile, there is treatment that you can be given to prevent blood clots."
+            android:textColor="#000"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+</ScrollView>

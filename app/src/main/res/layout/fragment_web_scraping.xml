@@ -1,0 +1,74 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.AhmedPart.fragment_webScraping">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal"
+            android:text="Webscraping Section"
+            android:textSize="30dp"
+            android:gravity="center_horizontal"
+            android:layout_marginTop="100dp"
+            android:textStyle="bold"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:id="@+id/description"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal"
+            android:text="Web scraping, web harvesting, or web data extraction is data scraping used for extracting data from websites. Web scraping software may directly access the World Wide Web using the Hypertext Transfer Protocol or a web browser."
+            android:textSize="15dp"
+            android:layout_marginHorizontal="10dp"
+            android:gravity="center_horizontal"
+            android:layout_marginTop="30dp"
+            android:textStyle="bold"
+            android:textColor="@color/grey"/>
+
+        <ProgressBar
+            android:id="@+id/progressBar"
+            style="?android:attr/progressBarStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:visibility="gone" />
+
+        <EditText
+            android:id="@+id/webLink"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:paddingHorizontal="20dp"
+            android:ems="10"
+            android:inputType="text"
+            android:hint="Website Link"
+            android:gravity="center"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/edit_text_background"
+            />
+
+        <Button
+            android:id="@+id/searchBtn"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="Search"
+            android:gravity="center"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/roundstyle"/>
+
+
+    </LinearLayout>
+
+
+</FrameLayout>

@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:background="@color/ladypink">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="24dp"
+            android:layout_marginLeft="5dp"
+            android:gravity="start"
+            android:text="Select User Type"
+            android:textColor="#000"
+            android:textSize="20sp"
+            android:layout_marginTop="32dp"/>
+
+        <RadioGroup
+            android:id="@+id/userTypeRadioGroup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center_horizontal">
+
+            <RadioButton
+                android:id="@+id/radioButtonCitizen"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Citizen"
+                android:textSize="16sp"
+                android:checked="true"/>
+
+            <RadioButton
+                android:id="@+id/radioButtonAgency"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Agency"
+                android:textSize="16sp"/>
+        </RadioGroup>
+
+
+        <LinearLayout
+            android:id="@+id/citizenLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:visibility="visible">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="24dp"
+                android:layout_marginBottom="16dp"
+                android:gravity="start"
+                android:text="User Sign Up"
+                android:textColor="#000"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/sign_up_full_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Full name"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/sign_up_email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Email address"
+                android:inputType="textEmailAddress" />
+
+            <EditText
+                android:id="@+id/sign_up_id"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="ID Number"
+                android:inputType="number" />
+
+            <EditText
+                android:id="@+id/sign_up_home_address"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Home address"
+                android:inputType="textPostalAddress" />
+
+            <EditText
+                android:id="@+id/sign_up_phone_number"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Phone number"
+                android:inputType="phone" />
+
+            <EditText
+                android:id="@+id/sign_up_password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Enter password"
+                android:inputType="textPassword" />
+
+            <EditText
+                android:id="@+id/sign_up_password_again"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Enter password again"
+                android:inputType="textPassword" />
+
+            <EditText
+                android:id="@+id/sign_up_age"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="32dp"
+                android:hint="Age"
+                android:inputType="number" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/agencyLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="24dp"
+                android:layout_marginBottom="16dp"
+                android:gravity="start"
+                android:text="Agency Sign Up"
+                android:textColor="#000"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/sign_up_company_type"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Company type"
+                android:inputType="text" />
+
+            <EditText
+                android:id="@+id/sign_up_company_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Company name"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/sign_up_company_phone_number"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Company phone number"
+                android:inputType="phone" />
+
+            <EditText
+                android:id="@+id/sign_up_company_email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Company email address"
+                android:inputType="textEmailAddress" />
+
+            <EditText
+                android:id="@+id/sign_up_company_address"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Company address"
+                android:inputType="textPostalAddress" />
+
+            <EditText
+                android:id="@+id/sign_up_company_password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Enter password"
+                android:inputType="textPassword" />
+
+            <EditText
+                android:id="@+id/sign_up_company_password_again"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="77dp"
+                android:hint="Enter password again"
+                android:inputType="textPassword" />
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/sign_up_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sign Up"
+            android:textColorHighlight="@color/darkgrey"
+            android:backgroundTint="@color/ladypurple"
+            android:background="@drawable/roundstyle"/>
+
+    </LinearLayout>
+
+</ScrollView>

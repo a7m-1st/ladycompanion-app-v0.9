@@ -1,0 +1,13 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Ladyapp" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <item name="colorPrimary">#FFE6F3</item>
+        <item name="colorPrimaryVariant">#9700CC</item>
+
+
+    </style>
+
+    <style name="Theme.Ladyapp" parent="Base.Theme.Ladyapp" />
+
+</resources>

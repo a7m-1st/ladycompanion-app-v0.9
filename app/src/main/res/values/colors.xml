@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#000000</color>
+    <color name="darkgrey">#959595</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="ladypink">#FFE6F3</color>
+    <color name="ladypurple">#D991E5</color>
+    <color name="ladypinkmid">#E8A8FF</color>
+    <color name="grey">#696969</color>
+    <color name="edit_text_background">#FFFFFFFF</color>
+    <color name="borderColor">#787878</color>
+    <color name="colorBackground">#FAD0E3</color>
+</resources>

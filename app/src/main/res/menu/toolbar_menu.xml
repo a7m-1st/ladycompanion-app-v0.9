@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/ToDestSettings"
+        android:title="Settings"/>
+
+    <item
+        android:id="@+id/ToDestSafetyZone"
+        android:title="Safety Zone"/>
+
+    <item
+        android:id="@+id/ToDestAboutUs"
+        android:title="About Us"/>
+
+    <item
+        android:id="@+id/LogOut"
+        android:title="Log Out"/>
+</menu>

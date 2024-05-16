@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/ToDestHome"
+        android:icon="@drawable/home_icon"
+        android:title="Home"
+        app:showAsAction="never"/>
+
+    <item
+
+        android:id="@+id/DestBlogs"
+        android:icon="@drawable/blogs_icon"
+        android:title="Blogs"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/DestContacts"
+        android:icon="@drawable/contacts_icon"
+        android:title="Contacts"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/DestEmergency"
+        android:icon="@drawable/defence_icon"
+        android:title="Emergency"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/ToDestProfile"
+        android:icon="@drawable/profile_icon"
+        android:title="Profile"
+        app:showAsAction="never"/>
+</menu>

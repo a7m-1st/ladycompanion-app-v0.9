@@ -1,0 +1,287 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.MouawiaPart.fragment_editinfo">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="24dp"
+            android:layout_marginBottom="16dp"
+            android:gravity="start"
+            android:text="Edit Information"
+            android:textColor="#000"
+            android:textSize="25sp" />
+
+        <LinearLayout
+            android:id="@+id/citizenLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:visibility="visible">
+
+
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="16dp"
+                android:gravity="start"
+                android:text="Profile Picture"
+                android:textColor="#000"
+                android:textStyle="bold"
+                android:textSize="15sp" />
+
+            <ImageView
+                android:id="@+id/profilePicEditInfo"
+                android:layout_width="142dp"
+                android:layout_height="95dp"
+                android:src="@drawable/contact"
+                android:layout_marginBottom="5dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:gravity="start"
+                android:text="Full Name"
+                android:textStyle="bold"
+                android:textColor="#000"
+                android:textSize="15sp" />
+            <EditText
+                android:id="@+id/sign_up_full_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Full name"
+                android:inputType="textPersonName" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:gravity="start"
+                android:text="Id"
+                android:textStyle="bold"
+                android:textColor="#000"
+                android:textSize="15sp" />
+
+            <EditText
+                android:id="@+id/sign_up_id"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="ID Number"
+                android:inputType="number" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:gravity="start"
+                android:text="Home Address"
+                android:textStyle="bold"
+                android:textColor="#000"
+                android:textSize="15sp" />
+
+            <EditText
+                android:id="@+id/sign_up_home_address"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Home address"
+                android:inputType="textPostalAddress" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:gravity="start"
+                android:text="Phone Number"
+                android:textStyle="bold"
+                android:textColor="#000"
+                android:textSize="15sp" />
+
+            <EditText
+                android:id="@+id/sign_up_phone_number"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Phone number"
+                android:inputType="phone" />
+
+<!--            <EditText-->
+<!--                android:id="@+id/sign_up_password"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:hint="Enter password"-->
+<!--                android:inputType="textPassword" />-->
+
+<!--            <EditText-->
+<!--                android:id="@+id/sign_up_password_again"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:hint="Enter password again"-->
+<!--                android:inputType="textPassword" />-->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:gravity="start"
+                android:text="Age"
+                android:textStyle="bold"
+                android:textColor="#000"
+                android:textSize="15sp" />
+
+            <EditText
+                android:id="@+id/sign_up_age"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="32dp"
+                android:hint="Age"
+                android:inputType="number" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/agencyLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="16dp"
+                android:gravity="start"
+                android:text="Profile Picture"
+                android:textColor="#000"
+                android:textStyle="bold"
+                android:textSize="15sp" />
+
+            <ImageView
+                android:id="@+id/profilePicEditInfoAgency"
+                android:layout_width="142dp"
+                android:layout_height="95dp"
+                android:src="@drawable/contact"
+                android:layout_marginBottom="5dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:gravity="start"
+                android:text="Company Type"
+                android:textStyle="bold"
+                android:textColor="#000"
+                android:textSize="15sp" />
+
+
+            <EditText
+                android:id="@+id/sign_up_company_type"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Company type"
+                android:inputType="text" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:gravity="start"
+                android:text="Company Name"
+                android:textStyle="bold"
+                android:textColor="#000"
+                android:textSize="15sp" />
+
+
+            <EditText
+                android:id="@+id/sign_up_company_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Company name"
+                android:inputType="textPersonName" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:gravity="start"
+                android:text="Company Phone Number"
+                android:textStyle="bold"
+                android:textColor="#000"
+                android:textSize="15sp" />
+
+
+            <EditText
+                android:id="@+id/sign_up_company_phone_number"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Company phone number"
+                android:inputType="phone" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:gravity="start"
+                android:text="Company Address"
+                android:textStyle="bold"
+                android:textColor="#000"
+                android:textSize="15sp" />
+
+            <EditText
+                android:id="@+id/sign_up_company_address"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Company address"
+                android:inputType="textPostalAddress" />
+
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/save_button"
+            android:layout_width="270dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:text="Save"
+            android:textColorHighlight="@color/darkgrey"
+            android:backgroundTint="@color/ladypurple"
+            android:background="@drawable/roundstyle"/>
+
+    </LinearLayout>
+
+</ScrollView>

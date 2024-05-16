@@ -1,0 +1,313 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.AmjadPart.fragment_menstruationOverview"
+    android:background="@color/ladypink">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="10dp"
+            android:gravity="start"
+            android:text="Overview"
+            android:textColor="#000"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="20dp"
+            android:gravity="start"
+            android:text="A period is the part of the menstrual cycle when a woman bleeds from her vagina for a few days."
+            android:textColor="#000"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="20dp"
+            android:gravity="start"
+            android:text="For most women this happens every 28 days or so, but it's common for periods to be more or less frequent than this, ranging from every 23 days to every 35 days.
+\n\nYour period can last between 2 and 7 days, but it will usually last for about 5 days. The bleeding tends to be heaviest in the first 2 days.
+\n\nWhen your period is at its heaviest, the blood will be red. On lighter days, it may be pink or brown.
+\n\nYou'll lose about 20 to 90ml (about 1 to 5 tablespoons) of blood during your period, although some women bleed more heavily than this."
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="10dp"
+            android:gravity="start"
+            android:text="When do periods start?"
+            android:textColor="#000"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="20dp"
+            android:gravity="start"
+            android:text="Periods usually begin at around the age of 12, although some girls will start them earlier or later.
+\n\nA delay in starting periods isn't usually a cause for concern. Most girls will be having regular periods by age 16 to 18."
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="10dp"
+            android:gravity="start"
+            android:text="Sanitary Products"
+            android:textColor="#000"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="20dp"
+            android:gravity="start"
+            android:text="Sanitary products soak up or collect the blood released during your period. The main types of sanitary products are:
+\n - sanitary pads
+\n - tampons
+\n - menstrual cups"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="10dp"
+            android:gravity="start"
+            android:text="Sanitary pads"
+            android:textColor="#000"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="20dp"
+            android:gravity="start"
+            android:text="Sanitary pads are strips of padding that have a sticky side you attach to your underwear to hold them in place. One side of the pad is made of an absorbent material that soaks up the blood.
+\n\nPads come in many sizes, so you can choose one to suit how heavy or light your period is.
+\n\nYou can also get reusable washable pads.
+\n\nPantyliners are a smaller and thinner type of sanitary pad that can be used on days when your period is very light."
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="10dp"
+            android:gravity="start"
+            android:text="Tampons"
+            android:textColor="#000"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="20dp"
+            android:gravity="start"
+            android:text="Tampons are small tubes of cotton wool that you insert into your vagina to soak up the blood before it comes out of your body.
+\n\nThere are 2 types of tampon – ones that come with an applicator and others without an applicator that you insert with your fingers. In both cases, there's a string at one end of the tampon, which you pull to remove it.
+\n\nTampons come with instructions that explain how to use them. If the tampon is inserted correctly, you should not be able to feel it inside you. If you can feel it or it hurts, it might not be in properly.
+\n\nIt is not possible for a tampon to get lost inside you. Your vagina holds it firmly in place and it expands inside you as it soaks up the blood."
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="10dp"
+            android:gravity="start"
+            android:text="Menstrual cups"
+            android:textColor="#000"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="20dp"
+            android:gravity="start"
+            android:text="Menstrual cups are an alternative to sanitary pads and tampons. The cup is made from silicone and you put it inside your vagina.
+\n\nMenstrual cups collect the blood rather than absorb it. Unlike tampons and most sanitary pads, which are thrown away after they've been used, you can wash menstrual cups and use them again."
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="10dp"
+            android:gravity="start"
+            android:text="Period underwear"
+            android:textColor="#000"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="20dp"
+            android:gravity="start"
+            android:text="Period underwear are pants made from absorbent fabric. They soak up blood in the same way as sanitary pads, and have a layer to prevent leaks. They're designed to be washed and reused."
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="10dp"
+            android:gravity="start"
+            android:text="PMS (premenstrual syndrome)"
+            android:textColor="#000"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="20dp"
+            android:gravity="start"
+            android:text="Changes in your body's hormone levels before your period can cause physical and emotional changes.
+\n\nThis is known as PMS (premenstrual syndrome) or PMT (premenstrual tension).
+\n\nThere are many possible symptoms of PMS, but typical symptoms include:
+\n\n - feeling bloated
+\n\n - breast tenderness
+\n\n - mood swings
+\n\n - feeling irritable
+\n\n - spotty skin
+\n\n - low sex drive (loss of libido)
+\n\nThese symptoms usually improve when your period starts and disappear a few days afterwards. Not all women who have periods get PMS."
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="10dp"
+            android:gravity="start"
+            android:text="Getting pregnant"
+            android:textColor="#000"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="20dp"
+            android:gravity="start"
+            android:text="Working out when you can get pregnant – your fertile time – can be difficult. It's around the time you ovulate, which is about 12 to 16 days before the start of your next period.
+\n\nBut sperm can survive inside a woman's body for up to 7 days before ovulation occurs. This means your fertile time extends back earlier in your cycle.
+\n\nYou can calculate when your period will start and your peak ovulation times using an online period calendar.
+\n\nYou cannot get pregnant if you do not ovulate. Some hormonal methods of contraception, such as the combined contraceptive pill, contraceptive patch and contraceptive injection, work by preventing ovulation."
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="10dp"
+            android:gravity="start"
+            android:text="Changes in your periods"
+            android:textColor="#000"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="20dp"
+            android:gravity="start"
+            android:text="Your periods can change – for example, they may last longer or get lighter. This does not necessarily mean there's a problem, but it does need to be investigated.
+\n\nYou can see your GP, or visit your nearest women's clinic or contraceptive clinic.
+\n\nBleeding between periods, bleeding after having sex, or bleeding after the menopause needs to be checked by a doctor.
+\n\nIt might be caused by an infection, abnormalities in the neck of the womb (the cervix) or, in rare cases, it could be cancer.
+\n\nYou could be pregnant if you miss a period and you've had sex. See your GP if you've taken a pregnancy test and the result is negative (you're not pregnant) and you've missed 3 consecutive periods.
+\n\nThey will investigate the cause and recommend any necessary treatment."
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="10dp"
+            android:gravity="start"
+            android:text="When do periods stop?"
+            android:textColor="#000"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="20dp"
+            android:gravity="start"
+            android:text="Your periods will continue until you reach the menopause, which usually happens when you are in your mid-40s to mid-50s. In the UK the average age of menopause is 51.
+\n\nYour periods will not usually stop suddenly when you go through the menopause. They may start to become less frequent over a few months or years before stopping altogether."
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+</ScrollView>

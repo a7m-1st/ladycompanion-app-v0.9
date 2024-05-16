@@ -1,0 +1,348 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.AmjadPart.fragment_assaultOverview"
+    android:background="@color/ladypink">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="10dp"
+            android:gravity="start"
+            android:text="Help after rape and sexual assault"
+            android:textColor="#000"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="20dp"
+            android:gravity="start"
+            android:text="If you've been sexually assaulted it's important to remember that it was not your fault. Sexual violence is a crime, no matter who commits it or where it happens. Don't be afraid to get help."
+            android:textColor="#000"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="20dp"
+            android:gravity="start"
+            android:text="There are services that can help if you've been sexually assaulted, raped or abused. You don't have to report the assault to the police if you don't want to. You may need time to think about what has happened to you.
+\n\nHowever, consider getting medical help as soon as possible for any injuries and because you may be at risk of pregnancy or sexually transmitted infections (STIs). If you want the crime to be investigated, the sooner a forensic medical examination takes place, the better.
+\n\nTry not to wash or change your clothes immediately after a sexual assault. This may destroy forensic evidence that could be important if you decide to report the assault to the police."
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="10dp"
+            android:gravity="start"
+            android:text="Where to get help"
+            android:textColor="#000"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="20dp"
+            android:gravity="start"
+            android:text="Sexual assault referral centres (SARCs) offer medical, practical and emotional support to anyone who has been raped, sexually assaulted or abused. SARCs have specially trained doctors, nurses and support workers to care for you.
+\n\nYou can get help from a SARC by booking an appointment with your nearest one.
+\n\nOther places you can get help include:
+\n\n - a doctor or practice nurse at your GP surgery
+\n\n - a voluntary organisation, such as Rape Crisis, Women's Aid, Victim Support, The Survivors Trust or Male Survivors Partnership
+\n\n - the 24-hour freephone National Domestic Abuse Helpline, run by Refuge, on 0808 2000 247
+\n\n - the rape and sexual abuse support line run by Rape Crisis England and Wales – you can call the helpline on 0808 500 2222 or use the online chat (both are free and are open 24 hours a day, every day of the year)
+\n\n - a hospital accident and emergency department
+\n\n - a genitourinary medicine (GUM) or sexual health clinic
+\n\n - a contraceptive clinic
+\n\n - a young people's service
+\n\n - call NHS 111 or get help from 111 online
+\n\n - the police, or dial 101
+\n\n - in an emergency, dial 999"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="10dp"
+            android:gravity="start"
+            android:text="About sexual assault referral centres (SARCs)"
+            android:textColor="#000"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="20dp"
+            android:gravity="start"
+            android:text="Sexual assault referral centres (SARCs) are located across the country and available for everyone, regardless of gender, age, the type of incident, or when it happened.
+\n\nSARCs offer a range of services, including crisis care, medical and forensic examinations, emergency contraception and testing for STIs. They can also arrange access to an independent sexual assault advisor (ISVA), as well as referrals to mental health support and sexual violence support services.
+\n\nIf you are thinking about reporting an assault to the police, the centre can arrange for you to speak to a specially trained police officer who can explain the next steps.
+\n\nIf you decide to report the assault to the police, specially trained advisors can support you through the criminal justice system. They can also support you through the trial if the case goes to court.
+\n\nForensic medical examinations can be arranged, even if you have not decided if you want to report the assault."
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="10dp"
+            android:gravity="start"
+            android:text="What is sexual assault?"
+            android:textColor="#000"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="20dp"
+            android:gravity="start"
+            android:text="A sexual assault is any sexual act that a person did not consent to, or is forced into against their will. It is a form of sexual violence and includes rape (an assault involving penetration of the vagina, anus or mouth), or other sexual offences, such as groping, forced kissing, child sexual abuse, or the torture of a person in a sexual manner.
+\n\nSexual violence or assault can happen to anyone of any age."
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="10dp"
+            android:gravity="start"
+            android:text="Consent"
+            android:textColor="#000"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="20dp"
+            android:gravity="start"
+            android:text="Sexual assault is an act that is carried out without a person's active consent. This means they did not agree to it.
+\n\nConsent means saying (yes) to what happened.
+\n\nBeing intoxicated, not being asked, saying nothing, or saying yes to something else, is not consent. Being in a relationship or married to someone is not consent."
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="10dp"
+            android:gravity="start"
+            android:text="Sexual assault is a crime"
+            android:textColor="#000"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="20dp"
+            android:gravity="start"
+            android:text="It is not uncommon for the person being sexually assaulted to have no physical injuries or signs of their assault. But sexual assault is still a crime and can be reported to the police in the same way as other crimes.
+\n\nThe Crime Survey for England and Wales for the year ending March 2021 showed that the police recorded 148,114 sexual offences, encompassing rape (55,696 cases) and sexual assault, and also sexual activity with children.
+\n\nMost sexual assaults are carried out by someone known to the victim. This could be a partner, former partner, relative, friend or colleague. The assault may happen in many places, but is usually in the victim's home or the home of the perpetrator (the person carrying out the assault)."
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="10dp"
+            android:gravity="start"
+            android:text="If you've been spiked"
+            android:textColor="#000"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="20dp"
+            android:gravity="start"
+            android:text="Spiking is when alcohol or drugs have been put in your drink without your permission.
+\n\nIf your drink has been spiked or you've been injected with an unknown substance, and you think you've been sexually assaulted, go to your nearest sexual assault referral centre (SARC) for specialist care and support.
+\n\nIf you've been spiked but have not been sexually assaulted, call 111 for urgent medical advice if you have any symptoms you're worried about.
+\n\nAlso, contact the police to tell them what happened."
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="10dp"
+            android:gravity="start"
+            android:text="Looking for forensic evidence"
+            android:textColor="#000"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="20dp"
+            android:gravity="start"
+            android:text="If you have been sexually assaulted, you don't have to have a forensic medical examination. However, it can provide useful evidence if the case goes to court. It’s possible to collect evidence, such as DNA, evidence of spiking and loose hair as part of the medical evidence.
+\n\nYou can decide at any stage if you would like a forensic medical examination. However, the sooner this takes place, the more chance of collecting evidence. If the assault occurred more than 7 days ago, it is still worth asking for advice from a SARC or the police about a forensic medical examination if you would like to have one.
+\n\nUsually the doctor or nurse will take the samples, such as swabs from anywhere you have been kissed, touched or had anything inserted. They might also take urine and blood samples and occasionally hair, depending on the information you provide about the assault, and also retain some clothing and other items (if they do they will give you new clothes).
+\n\nYou can ask to do your own swabs. Or you can choose to have only some samples, for example urine or clothing.
+\n\nIt's important to have the swabs taken as soon as possible, as forensic evidence will wear and wash away.
+\n\nIf you haven't decided whether to involve the police, any forensic medical evidence that's collected will be stored at the SARC. This allows you time to decide if you do want to report the assault..
+\n\nIn some SARCs you can choose to have your samples processed without identifying you (in case the person who assaulted you has assaulted someone else)."
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="10dp"
+            android:gravity="start"
+            android:text="If you report the assault to the police"
+            android:textColor="#000"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="20dp"
+            android:gravity="start"
+            android:text="If you do decide to report it to the police, a police officer specially trained in supporting victims of sexual assault will talk to you and help to make sure you understand what's going on at each stage.
+\n\nThe police will investigate the assault. You will be offered a forensic medical examination and will be asked to make a statement about what happened (what you say is written down, which you check and sign). The police will pass their findings, including the forensic report, to the Crown Prosecution Service, who will decide whether the case should go to trial."
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="10dp"
+            android:gravity="start"
+            android:text="Confidentiality"
+            android:textColor="#000"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="20dp"
+            android:gravity="start"
+            android:text="Your details will be kept as confidential as possible. However, if there's a police investigation or criminal prosecution linked to the assault, any material relating to it is (disclosable). This means it may have to be produced in court.
+\n\nIf there is no investigation or prosecution, information about you won't be shared with other services without your permission, unless there's a concern that you or anyone else is at risk of serious harm."
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="10dp"
+            android:gravity="start"
+            android:text="Supporting a victim of sexual assault"
+            android:textColor="#000"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="20dp"
+            android:gravity="start"
+            android:text="Advice for relatives and friends of someone who has been sexually assaulted includes:
+\n\n - Believe what they're saying and tell them this.
+\n\n - Listen to the person, but don't ask for details of the assault. Don't ask them why they didn't stop it. This can make them feel as though you blame them.
+\n\n - Offer practical support, such as asking them if they would like you to go with them to appointments.
+\n\n - Respect their decisions – for example, whether or not they want to report the assault to the police.
+\n\n - Bear in mind they might not want to be touched. Even a hug might upset them, so ask first. If you're in a sexual relationship with them, be aware that sex might be frightening, and don't put pressure on them to have sex.
+\n\n - Don't tell them to forget about the assault. It will take time for them to deal with their feelings and emotions. You can help by listening and being patient."
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="10dp"
+            android:gravity="start"
+            android:text="If you're worried about a child"
+            android:textColor="#000"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="20dp"
+            android:gravity="start"
+            android:text="If you're worried about a child, it's important you talk to a professional who can make sure they are safe. Who you speak to will depend on the situation.
+\n\n - A young person might talk to a trusted teacher who would refer to something called the Multi-Agency Safeguarding Hub (MASH) if needed.
+\n\n - You can also talk to someone from the MASH, or a social worker or the police if you prefer. You don't have to give your name.
+\n\n - You can find the number of your local MASH if you search online for MASH in your area."
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+</ScrollView>

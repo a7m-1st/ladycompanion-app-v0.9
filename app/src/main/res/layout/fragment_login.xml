@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/ladypink"
+    tools:context="com.example.BimoPart.fragment_login">
+
+    <include
+        android:id="@+id/Mshn_logo"
+        layout="@layout/fragment_logo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+
+    <ImageView
+        android:id="@+id/ic_logo"
+        android:layout_width="238dp"
+        android:layout_height="196dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="71dp"
+        android:layout_marginEnd="80dp"
+        android:visibility="gone"
+        app:srcCompat="@drawable/logo"
+        tools:visibility="gone" />
+
+    <TextView
+        android:id="@+id/app_name"
+        android:layout_width="277dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/ic_logo"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginVertical="180dp"
+        android:layout_marginStart="60dp"
+        android:text="Lady Companion"
+        android:textAlignment="center"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        android:visibility="gone"
+        tools:visibility="gone" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="237dp"
+        android:padding="16dp">
+
+        <!-- App Name or Title -->
+
+
+        <EditText
+            android:id="@+id/email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="81dp"
+            android:hint="Email"
+            android:inputType="textEmailAddress" />
+
+        <EditText
+            android:id="@+id/password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/email"
+            android:layout_marginTop="16dp"
+            android:hint="Password"
+            android:inputType="textPassword" />
+
+        <!-- Login Button -->
+        <Button
+            android:id="@+id/login_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/password"
+            android:layout_marginTop="24dp"
+            android:text="Login"
+            android:backgroundTint="@color/ladypurple"
+            android:background="@drawable/roundstyle"/>
+
+        <!-- Sign Up Navigation -->
+        <TextView
+            android:id="@+id/sign_up"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/login_button"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="16dp"
+            android:text="Sign Up"
+            android:textColor="#0000FF" />
+
+        <!-- Reset Password Navigation -->
+        <TextView
+            android:id="@+id/reset_password"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/sign_up"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="8dp"
+            android:text="Forgot Password?"
+            android:textColor="#0000FF" />
+
+    </RelativeLayout>
+
+</FrameLayout>
